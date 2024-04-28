@@ -1,0 +1,8 @@
+{
+    "default_frame": "00000000-0000-0000-0000-000000000000",
+    "default_via": "00000000-0000-0000-0000-000000000000",
+    "name": "ygn-horizon-pool",
+    "pools_included": [],
+    "type": "pool",
+    "uuid": "2cc7e910-b93a-450a-aef3-25566c8f2558"
+}
