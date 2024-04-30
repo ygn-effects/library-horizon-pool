@@ -94,6 +94,20 @@
 				]
 			},
 			{
+				"name" : "package",
+				"display_name": "Package",
+				"type" : "enum",
+				"items" : [
+					"0603",
+					"0805",
+					"1206",
+					"4x5.4mm",
+					"5x5.4mm",
+					"6.3x5.4mm",
+					"7.7x6.3mm"
+				]
+			},
+			{
 				"name" : "tolerance",
 				"display_name": "Tolerance",
 				"type" : "quantity",
