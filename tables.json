@@ -1,0 +1,182 @@
+{
+"tables": {
+	"resistors" : {
+		"display_name": "Resistors",
+		"columns" : [
+			{
+				"name": "value",
+				"display_name" : "Value",
+				"type" : "quantity",
+				"unit" : "Ω",
+				"use_si" : true,
+				"digits" : 2
+			},
+			{
+				"name" : "tolerance",
+				"display_name": "Tolerance",
+				"type" : "quantity",
+				"unit" : "%",
+				"use_si" : false
+			},
+			{
+				"name": "pmax",
+				"display_name": "Power rating",
+				"type" : "quantity",
+				"unit" : "W",
+				"use_si" : false,
+				"digits" : 3
+			},
+			{
+				"name": "price",
+				"display_name" : "Price",
+				"type" : "quantity",
+				"unit" : "€",
+				"use_si" : false,
+				"digits" : 4
+			}
+		]
+	},
+	"capacitors" : {
+		"display_name": "Capacitors",
+		"columns" : [
+			{
+				"name": "value",
+				"display_name" : "Value",
+				"type" : "quantity",
+				"unit" : "F",
+				"use_si" : true,
+				"digits" : 2
+			},
+			{
+				"name" : "wvdc",
+				"display_name": "Voltage rating",
+				"type" : "quantity",
+				"unit" : "V",
+				"use_si" : false
+			},
+			{
+				"name" : "type",
+				"display_name": "Type",
+				"type" : "enum",
+				"items" : [
+					"Electrolytic",
+					"C0G/NP0",
+					"C0H",
+					"U2J",
+					"X8L",
+					"X5R",
+					"X7R",
+					"X8R",
+					"X5S",
+					"X6S",
+					"X7S",
+					"X6T",
+					"X7T",
+					"X7U",
+					"Y5V",
+					"SL",
+					"CH",
+					"CJ",
+					"UJ",
+					"CK",
+					"B",
+					"R"
+				]
+			},
+			{
+				"name" : "tolerance",
+				"display_name": "Tolerance",
+				"type" : "quantity",
+				"unit" : "%",
+				"use_si" : false,
+				"required": false
+			},
+			{
+				"name": "price",
+				"display_name" : "Price",
+				"type" : "quantity",
+				"unit" : "€",
+				"use_si" : false,
+				"digits" : 4
+			}
+		]
+	},
+	"potentiometer" : {
+		"display_name": "Potentiometers",
+		"columns" : [
+			{
+				"name": "value",
+				"display_name" : "Value",
+				"type" : "quantity",
+				"unit" : "Ω",
+				"use_si" : true,
+				"digits" : 2
+			},
+			{
+				"name" : "type",
+				"display_name": "Type",
+				"type" : "enum",
+				"items" : [
+					"Linear",
+					"Logarithm",
+					"Anti-Logarithm"
+				]
+			},
+			{
+				"name": "price",
+				"display_name" : "Price",
+				"type" : "quantity",
+				"unit" : "€",
+				"use_si" : false,
+				"digits" : 4
+			}
+		]
+	},
+	"switch" : {
+		"display_name": "Switches",
+		"columns" : [
+			{
+				"name" : "type",
+				"display_name": "Type",
+				"type" : "enum",
+				"items" : [
+					"SPST",
+					"SPDT",
+					"DPDT"
+				]
+			},
+			{
+				"name" : "value",
+				"display_name": "Value",
+				"type" : "enum",
+				"items" : [
+					"ON-OFF",
+					"ON-ON",
+					"ON-OFF-ON"
+				]
+			},
+			{
+				"name": "price",
+				"display_name" : "Price",
+				"type" : "quantity",
+				"unit" : "€",
+				"use_si" : false,
+				"digits" : 4
+			}
+		]
+	},
+	"general" : {
+		"display_name": "General",
+		"columns" : [
+			{
+				"name": "price",
+				"display_name" : "Price",
+				"type" : "quantity",
+				"unit" : "€",
+				"use_si" : false,
+				"digits" : 4
+			}
+		]
+	}
+}
+}
