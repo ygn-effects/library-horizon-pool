@@ -27,6 +27,16 @@
 				"digits" : 3
 			},
 			{
+				"name" : "package",
+				"display_name": "Package",
+				"type" : "enum",
+				"items" : [
+					"0603",
+					"0805",
+					"1206"
+				]
+			},
+			{
 				"name": "price",
 				"display_name" : "Price",
 				"type" : "quantity",
