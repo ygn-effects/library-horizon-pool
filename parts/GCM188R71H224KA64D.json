@@ -18,20 +18,12 @@
         false,
         "Murata"
     ],
-    "model": "b8e8e7bb-2f86-4611-8033-7aecd8aa4b77",
+    "model": "8c79c731-9d95-47f0-bcd9-079ebeca5b5a",
     "package": "da8061cd-7ed9-4788-a76a-968f861d8e6c",
-    "pad_map": {
-        "2ab5a727-8c1d-4bfc-b745-3c33a71a44b8": {
-            "gate": "9bfcf213-2a7e-444e-8312-ce57209fc9ec",
-            "pin": "29995253-b4b1-4c7c-a049-b6db2713ca7c"
-        },
-        "e089adf5-57a6-4fca-a890-bbe844d0203d": {
-            "gate": "9bfcf213-2a7e-444e-8312-ce57209fc9ec",
-            "pin": "852f1fe6-06dc-4661-8a14-61a9a6ebb26a"
-        }
-    },
+    "pad_map": {},
     "parametric": {
-        "price": "0.053",
+        "package": "0603",
+        "price": "0.043",
         "table": "capacitors",
         "tolerance": "10",
         "type": "X7R",

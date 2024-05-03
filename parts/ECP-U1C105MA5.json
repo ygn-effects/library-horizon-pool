@@ -18,7 +18,7 @@
         false,
         "Panasonic"
     ],
-    "model": "7f4af184-3fc4-4f8e-bc11-cafc5b59ecc2",
+    "model": "a672c7a5-d6b9-478e-90d6-65047050c4a6",
     "package": "5dfb2326-542f-4e99-984d-d3260177e11b",
     "pad_map": {
         "13718247-bc23-41be-82ec-2c85f44b6c45": {
@@ -31,6 +31,7 @@
         }
     },
     "parametric": {
+        "package": "G2",
         "price": "0.499",
         "table": "capacitors",
         "tolerance": "20",

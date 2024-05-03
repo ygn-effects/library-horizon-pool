@@ -18,7 +18,7 @@
         false,
         "Panasonic"
     ],
-    "model": "014fb735-3d50-4b69-8818-78e46ffc9d8f",
+    "model": "64472e11-3ab6-48a8-bd47-88366f7e0a7d",
     "package": "8788d11a-e385-42a5-aa9b-44aa689245d8",
     "pad_map": {
         "2c796120-073c-4504-9663-72805c246546": {
@@ -31,7 +31,8 @@
         }
     },
     "parametric": {
-        "price": "0.127",
+        "package": "4x5.4mm",
+        "price": "0.096",
         "table": "capacitors",
         "tolerance": "20",
         "type": "Electrolytic",

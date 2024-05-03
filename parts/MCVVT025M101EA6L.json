@@ -18,20 +18,12 @@
         false,
         "Multicomp"
     ],
-    "model": "3d8a0da4-3e45-4882-a4c2-3a19cb57aa2c",
+    "model": "617ce3a9-1801-4b7b-8cec-c09cae32d787",
     "package": "b1dabf1b-91ef-45b3-b686-26d62bcf4d69",
-    "pad_map": {
-        "6927cf05-8a87-4bf3-be4d-da1bed8882bd": {
-            "gate": "23766b63-6ffc-4831-baee-ba1635a735b3",
-            "pin": "1e7cd34f-86db-4b34-9e0b-c276756301ab"
-        },
-        "9f5dfddd-c474-42b6-94b5-a94abdc54a94": {
-            "gate": "23766b63-6ffc-4831-baee-ba1635a735b3",
-            "pin": "bb8460b5-34e6-41b0-9a9f-10eed3a3d8d6"
-        }
-    },
+    "pad_map": {},
     "parametric": {
-        "price": "0.103",
+        "package": "6.3x5.4mm",
+        "price": "0.0989",
         "table": "capacitors",
         "tolerance": "20",
         "type": "Electrolytic",

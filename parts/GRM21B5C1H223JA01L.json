@@ -18,7 +18,7 @@
         false,
         "Murata"
     ],
-    "model": "70582fe7-2095-4ff8-899e-e506c8846d5c",
+    "model": "41c77c4c-d4d5-41f9-91d2-530a8bd4dd78",
     "package": "0828862c-c50e-4c18-aafa-e870220707c3",
     "pad_map": {
         "a3aac1b3-2402-480a-8649-50489043a5c9": {
@@ -31,7 +31,8 @@
         }
     },
     "parametric": {
-        "price": "0.18",
+        "package": "0805",
+        "price": "0.102",
         "table": "capacitors",
         "tolerance": "5",
         "type": "C0G/NP0",
