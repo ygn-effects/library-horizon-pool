@@ -126,7 +126,7 @@
 			}
 		]
 	},
-	"potentiometer" : {
+	"potentiometers" : {
 		"display_name": "Potentiometers",
 		"columns" : [
 			{
@@ -157,7 +157,7 @@
 			}
 		]
 	},
-	"switch" : {
+	"switches" : {
 		"display_name": "Switches",
 		"columns" : [
 			{
@@ -178,6 +178,41 @@
 					"ON-OFF",
 					"ON-ON",
 					"ON-OFF-ON"
+				]
+			},
+			{
+				"name": "price",
+				"display_name" : "Price",
+				"type" : "quantity",
+				"unit" : "€",
+				"use_si" : false,
+				"digits" : 4
+			}
+		]
+	},
+	"transistors" : {
+		"display_name": "Transistors",
+		"columns" : [
+			{
+				"name" : "type",
+				"display_name": "Type",
+				"type" : "enum",
+				"items" : [
+					"PNP",
+					"NPN",
+					"JFET P-Channel",
+					"JFET N-Channel",
+					"MOSFET N-Channel",
+					"MOSFET P-Channel"
+				]
+			},
+			{
+				"name" : "package",
+				"display_name": "Package",
+				"type" : "enum",
+				"items" : [
+					"SOT-23-3",
+					"SOT-323-3"
 				]
 			},
 			{
