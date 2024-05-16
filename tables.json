@@ -126,6 +126,80 @@
 			}
 		]
 	},
+	"diodes_rectifiers" : {
+		"display_name": "Diodes - Rectifiers",
+		"columns" : [
+			{
+				"name": "forward_voltage_drop",
+				"display_name" : "Forward Voltage Drop",
+				"type" : "quantity",
+				"unit" : "V",
+				"use_si" : true,
+				"digits" : 2
+			},
+			{
+				"name": "peak_inverse_voltage",
+				"display_name" : "Peak Inverse Voltage",
+				"type" : "quantity",
+				"unit" : "V",
+				"use_si" : true,
+				"digits" : 2
+			},
+			{
+				"name": "max_forward_current",
+				"display_name" : "Max Forward Current",
+				"type" : "quantity",
+				"unit" : "A",
+				"use_si" : true,
+				"digits" : 2
+			},
+			{
+				"name" : "package",
+				"display_name": "Package",
+				"type" : "enum",
+				"items" : [
+					"DO-214AC"
+				]
+			}
+		]
+	},
+	"diodes_switching" : {
+		"display_name": "Diodes - Small signal",
+		"columns" : [
+			{
+				"name": "forward_voltage_drop",
+				"display_name" : "Forward Voltage Drop",
+				"type" : "quantity",
+				"unit" : "V",
+				"use_si" : true,
+				"digits" : 2
+			},
+			{
+				"name": "peak_inverse_voltage",
+				"display_name" : "Peak Inverse Voltage",
+				"type" : "quantity",
+				"unit" : "V",
+				"use_si" : true,
+				"digits" : 2
+			},
+			{
+				"name": "max_forward_current",
+				"display_name" : "Max Forward Current",
+				"type" : "quantity",
+				"unit" : "A",
+				"use_si" : true,
+				"digits" : 2
+			},
+			{
+				"name" : "package",
+				"display_name": "Package",
+				"type" : "enum",
+				"items" : [
+					"SOD-323F-2"
+				]
+			}
+		]
+	},
 	"potentiometers" : {
 		"display_name": "Potentiometers",
 		"columns" : [
