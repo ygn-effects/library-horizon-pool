@@ -1,51 +1,5 @@
 {
 "tables": {
-	"resistors" : {
-		"display_name": "Resistors",
-		"columns" : [
-			{
-				"name": "value",
-				"display_name" : "Value",
-				"type" : "quantity",
-				"unit" : "Ω",
-				"use_si" : true,
-				"digits" : 2
-			},
-			{
-				"name" : "tolerance",
-				"display_name": "Tolerance",
-				"type" : "quantity",
-				"unit" : "%",
-				"use_si" : false
-			},
-			{
-				"name": "pmax",
-				"display_name": "Power rating",
-				"type" : "quantity",
-				"unit" : "W",
-				"use_si" : false,
-				"digits" : 3
-			},
-			{
-				"name" : "package",
-				"display_name": "Package",
-				"type" : "enum",
-				"items" : [
-					"0603",
-					"0805",
-					"1206"
-				]
-			},
-			{
-				"name": "price",
-				"display_name" : "Price",
-				"type" : "quantity",
-				"unit" : "€",
-				"use_si" : false,
-				"digits" : 4
-			}
-		]
-	},
 	"capacitors" : {
 		"display_name": "Capacitors",
 		"columns" : [
@@ -337,27 +291,40 @@
 			}
 		]
 	},
-	"switches" : {
-		"display_name": "Switches",
+	"resistors" : {
+		"display_name": "Resistors",
 		"columns" : [
 			{
-				"name" : "type",
-				"display_name": "Type",
-				"type" : "enum",
-				"items" : [
-					"SPST",
-					"SPDT",
-					"DPDT"
-				]
+				"name": "value",
+				"display_name" : "Value",
+				"type" : "quantity",
+				"unit" : "Ω",
+				"use_si" : true,
+				"digits" : 2
 			},
 			{
-				"name" : "value",
-				"display_name": "Value",
+				"name" : "tolerance",
+				"display_name": "Tolerance",
+				"type" : "quantity",
+				"unit" : "%",
+				"use_si" : false
+			},
+			{
+				"name": "pmax",
+				"display_name": "Power rating",
+				"type" : "quantity",
+				"unit" : "W",
+				"use_si" : false,
+				"digits" : 3
+			},
+			{
+				"name" : "package",
+				"display_name": "Package",
 				"type" : "enum",
 				"items" : [
-					"ON-OFF",
-					"ON-ON",
-					"ON-OFF-ON"
+					"0603",
+					"0805",
+					"1206"
 				]
 			},
 			{
