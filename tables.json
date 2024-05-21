@@ -337,6 +337,66 @@
 			}
 		]
 	},
+	"switches" : {
+		"display_name": "Switches",
+		"columns" : [
+			{
+				"name" : "contact_form",
+				"display_name": "Contact Form",
+				"type" : "enum",
+				"items" : [
+					"SPST",
+					"SPDT",
+					"DPDT"
+				]
+			},
+			{
+				"name" : "contact_type",
+				"display_name": "Contact Type",
+				"type" : "enum",
+				"items" : [
+					"ON-OFF",
+					"ON-ON",
+					"ON-OFF-ON"
+				]
+			},
+			{
+				"name" : "switch_type",
+				"display_name": "Switch Type",
+				"type" : "enum",
+				"items" : [
+					"DIP",
+					"Footswitch",
+					"Slide",
+					"Toggle"
+				]
+			},
+			{
+				"name": "current_rating",
+				"display_name" : "Current Rating",
+				"type" : "quantity",
+				"unit" : "A",
+				"use_si" : true,
+				"digits" : 2
+			},
+			{
+				"name": "voltage_rating",
+				"display_name" : "Voltage Rating",
+				"type" : "quantity",
+				"unit" : "V",
+				"use_si" : true,
+				"digits" : 2
+			},
+			{
+				"name": "price",
+				"display_name" : "Price",
+				"type" : "quantity",
+				"unit" : "€",
+				"use_si" : false,
+				"digits" : 4
+			}
+		]
+	},
 	"transistors" : {
 		"display_name": "Transistors",
 		"columns" : [
