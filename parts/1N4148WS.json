@@ -18,7 +18,7 @@
         false,
         "ON Semiconductor"
     ],
-    "model": "5a5ee115-bdf9-4708-a9f9-4e4fa74fd71d",
+    "model": "29d125cf-f2da-439e-a919-d50a54f86150",
     "package": "9aa34044-61cd-4778-b107-90f348d28d31",
     "pad_map": {
         "463467e3-68da-4996-aa5b-1eb3abd340bb": {
@@ -31,8 +31,12 @@
         }
     },
     "parametric": {
-        "price": "0.092",
-        "table": "general"
+        "forward_voltage_drop": "1",
+        "max_forward_current": "0.15",
+        "package": "SOD-323F-2",
+        "peak_inverse_voltage": "75",
+        "price": "0.052",
+        "table": "diodes_switching"
     },
     "tags": [],
     "type": "part",

@@ -18,7 +18,7 @@
         false,
         "ON Semiconductor"
     ],
-    "model": "b8e53f31-557d-43b7-bdc5-a2e414df6361",
+    "model": "bdbe6eed-a34a-4489-9e74-85aef9e308eb",
     "package": "2d46829a-7db3-4c4c-9ef1-fa512df7bacb",
     "pad_map": {
         "cdd0aacf-b579-47f5-bd8d-70fb657986af": {
@@ -31,8 +31,12 @@
         }
     },
     "parametric": {
-        "price": "0.131",
-        "table": "general"
+        "forward_voltage_drop": "1.1",
+        "max_forward_current": "1",
+        "package": "DO-214AC",
+        "peak_inverse_voltage": "50",
+        "price": "0.113",
+        "table": "diodes_rectifiers"
     },
     "tags": [],
     "type": "part",

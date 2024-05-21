@@ -18,7 +18,7 @@
         false,
         "Toshiba"
     ],
-    "model": "754cd6e7-fa11-4d6a-94c2-c1c8cff27d43",
+    "model": "76f7d370-c1fd-44e4-8b84-9d678c89ae06",
     "package": "f3e55e4c-7e56-498c-89a3-bd64f18f17c1",
     "pad_map": {
         "31cd3b80-1d09-40e1-b3b2-07fed3ef0b67": {
@@ -30,7 +30,14 @@
             "pin": "c843be6b-4356-46e1-abba-2966a4332a27"
         }
     },
-    "parametric": {},
+    "parametric": {
+        "forward_voltage_drop": "0.6",
+        "max_forward_current": "0.3",
+        "package": "SOD-523-2",
+        "peak_inverse_voltage": "30",
+        "price": "0.047",
+        "table": "diodes_schottky"
+    },
     "tags": [],
     "type": "part",
     "uuid": "8b0a34f5-754e-4a18-b5fb-0775536b2707",
