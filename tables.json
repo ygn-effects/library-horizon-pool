@@ -291,6 +291,59 @@
 			}
 		]
 	},
+	"relays" : {
+		"display_name": "Relays",
+		"columns" : [
+			{
+				"name" : "contact_form",
+				"display_name": "Contact Form",
+				"type" : "enum",
+				"items" : [
+					"DPDT"
+				]
+			},
+			{
+				"name": "current_rating",
+				"display_name" : "Current Rating",
+				"type" : "quantity",
+				"unit" : "A",
+				"use_si" : true,
+				"digits" : 2
+			},
+			{
+				"name": "coil_voltage",
+				"display_name" : "Coil Voltage",
+				"type" : "quantity",
+				"unit" : "V",
+				"use_si" : true,
+				"digits" : 2
+			},
+			{
+				"name": "coil_resistance",
+				"display_name" : "Coil Resistance",
+				"type" : "quantity",
+				"unit" : "Ω",
+				"use_si" : true,
+				"digits" : 2
+			},
+			{
+				"name": "coil_current",
+				"display_name" : "Coil Current",
+				"type" : "quantity",
+				"unit" : "A",
+				"use_si" : true,
+				"digits" : 2
+			},
+			{
+				"name": "price",
+				"display_name" : "Price",
+				"type" : "quantity",
+				"unit" : "€",
+				"use_si" : false,
+				"digits" : 4
+			}
+		]
+	},
 	"resistors" : {
 		"display_name": "Resistors",
 		"columns" : [
