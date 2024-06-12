@@ -260,6 +260,51 @@
 			}
 		]
 	},
+	"optocouplers" : {
+		"display_name": "Optocouplers",
+		"columns" : [
+			{
+				"name" : "type",
+				"display_name": "Type",
+				"type" : "enum",
+				"items" : [
+					"Photocoupler"
+				]
+			},
+			{
+				"name": "forward_current",
+				"display_name" : "Forward Current",
+				"type" : "quantity",
+				"unit" : "A",
+				"use_si" : true,
+				"digits" : 2
+			},
+			{
+				"name": "forward_voltage",
+				"display_name" : "Forward Voltage",
+				"type" : "quantity",
+				"unit" : "V",
+				"use_si" : true,
+				"digits" : 2
+			},
+			{
+				"name": "reverse_voltage",
+				"display_name" : "Reverse Voltage",
+				"type" : "quantity",
+				"unit" : "V",
+				"use_si" : true,
+				"digits" : 2
+			},
+			{
+				"name": "price",
+				"display_name" : "Price",
+				"type" : "quantity",
+				"unit" : "€",
+				"use_si" : false,
+				"digits" : 4
+			}
+		]
+	},
 	"potentiometers" : {
 		"display_name": "Potentiometers",
 		"columns" : [
