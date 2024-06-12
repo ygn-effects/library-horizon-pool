@@ -39,8 +39,12 @@
         }
     },
     "parametric": {
-        "price": "0.465",
-        "table": "general"
+        "forward_current": "0.002",
+        "forward_voltage": "1.5",
+        "price": "0.444",
+        "reverse_voltage": "5",
+        "table": "optocouplers",
+        "type": "Photocoupler"
     },
     "tags": [],
     "type": "part",
