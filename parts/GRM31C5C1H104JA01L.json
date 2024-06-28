@@ -1,0 +1,40 @@
+{
+    "MPN": [
+        false,
+        "GRM31C5C1H104JA01L"
+    ],
+    "datasheet": [
+        false,
+        ""
+    ],
+    "description": [
+        false,
+        "CAPACITOR MLCC 100NF C0G/NP0 1206 50V ±5%"
+    ],
+    "entity": "ca83a84f-6183-4088-84b6-5d79b2a119d4",
+    "inherit_model": false,
+    "inherit_tags": false,
+    "manufacturer": [
+        false,
+        "Murata"
+    ],
+    "model": "a12c1037-60d5-4372-a269-443514f69259",
+    "package": "7eda235b-0669-4a40-b4a4-e16dd9c1dd55",
+    "pad_map": {},
+    "parametric": {
+        "package": "1206",
+        "price": "0.198",
+        "table": "capacitors",
+        "tolerance": "5",
+        "type": "C0G/NP0",
+        "value": "1e-07",
+        "wvdc": "50"
+    },
+    "tags": [],
+    "type": "part",
+    "uuid": "df517b0b-a306-4e99-8355-bcecebeb2fa5",
+    "value": [
+        false,
+        "100n"
+    ]
+}

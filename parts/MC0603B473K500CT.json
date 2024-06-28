@@ -1,0 +1,40 @@
+{
+    "MPN": [
+        false,
+        "MC0603B473K500CT"
+    ],
+    "datasheet": [
+        false,
+        ""
+    ],
+    "description": [
+        false,
+        "CAPACITOR MLCC 47NF X7R 0603 50V ±10%,"
+    ],
+    "entity": "ca83a84f-6183-4088-84b6-5d79b2a119d4",
+    "inherit_model": false,
+    "inherit_tags": false,
+    "manufacturer": [
+        false,
+        "Multicomp"
+    ],
+    "model": "8c79c731-9d95-47f0-bcd9-079ebeca5b5a",
+    "package": "da8061cd-7ed9-4788-a76a-968f861d8e6c",
+    "pad_map": {},
+    "parametric": {
+        "package": "0603",
+        "price": "0.0302",
+        "table": "capacitors",
+        "tolerance": "10",
+        "type": "X7R",
+        "value": "4.7e-08",
+        "wvdc": "50"
+    },
+    "tags": [],
+    "type": "part",
+    "uuid": "178ff3f2-55fd-4481-ae2e-10c719d94a8f",
+    "value": [
+        false,
+        "47n"
+    ]
+}

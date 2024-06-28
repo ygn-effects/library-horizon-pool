@@ -1,0 +1,40 @@
+{
+    "MPN": [
+        false,
+        "GCM31M5C1H473JA16L"
+    ],
+    "datasheet": [
+        false,
+        ""
+    ],
+    "description": [
+        false,
+        "CAPACITOR MLCC 47NF C0G/NP0 1206 50V ±5%"
+    ],
+    "entity": "ca83a84f-6183-4088-84b6-5d79b2a119d4",
+    "inherit_model": false,
+    "inherit_tags": false,
+    "manufacturer": [
+        false,
+        "Murata"
+    ],
+    "model": "a12c1037-60d5-4372-a269-443514f69259",
+    "package": "7eda235b-0669-4a40-b4a4-e16dd9c1dd55",
+    "pad_map": {},
+    "parametric": {
+        "package": "1206",
+        "price": "0.14",
+        "table": "capacitors",
+        "tolerance": "5",
+        "type": "C0G/NP0",
+        "value": "4.7e-08",
+        "wvdc": "50"
+    },
+    "tags": [],
+    "type": "part",
+    "uuid": "73a4f53b-7ee9-4d83-9594-4e696d9a1f19",
+    "value": [
+        false,
+        "47n"
+    ]
+}

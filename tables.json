@@ -1,0 +1,547 @@
+{
+"tables": {
+	"capacitors" : {
+		"display_name": "Capacitors",
+		"columns" : [
+			{
+				"name": "value",
+				"display_name" : "Value",
+				"type" : "quantity",
+				"unit" : "F",
+				"use_si" : true,
+				"digits" : 2
+			},
+			{
+				"name" : "wvdc",
+				"display_name": "Voltage rating",
+				"type" : "quantity",
+				"unit" : "V",
+				"use_si" : false
+			},
+			{
+				"name" : "type",
+				"display_name": "Type",
+				"type" : "enum",
+				"items" : [
+					"Electrolytic",
+					"C0G/NP0",
+					"C0H",
+					"U2J",
+					"X8L",
+					"X5R",
+					"X7R",
+					"X8R",
+					"X5S",
+					"X6S",
+					"X7S",
+					"X6T",
+					"X7T",
+					"X7U",
+					"Y5V",
+					"SL",
+					"CH",
+					"CJ",
+					"UJ",
+					"CK",
+					"B",
+					"R"
+				]
+			},
+			{
+				"name" : "package",
+				"display_name": "Package",
+				"type" : "enum",
+				"items" : [
+					"0603",
+					"0805",
+					"1206",
+					"G2",
+					"4x5.4mm",
+					"5x5.4mm",
+					"6.3x5.4mm",
+					"6.3x7.7mm"
+				]
+			},
+			{
+				"name" : "tolerance",
+				"display_name": "Tolerance",
+				"type" : "quantity",
+				"unit" : "%",
+				"use_si" : false,
+				"required": false
+			},
+			{
+				"name": "price",
+				"display_name" : "Price",
+				"type" : "quantity",
+				"unit" : "€",
+				"use_si" : false,
+				"digits" : 4
+			}
+		]
+	},
+	"diodes_rectifiers" : {
+		"display_name": "Diodes - Rectifiers",
+		"columns" : [
+			{
+				"name": "forward_voltage_drop",
+				"display_name" : "Forward Voltage Drop",
+				"type" : "quantity",
+				"unit" : "V",
+				"use_si" : true,
+				"digits" : 2
+			},
+			{
+				"name": "peak_inverse_voltage",
+				"display_name" : "Peak Inverse Voltage",
+				"type" : "quantity",
+				"unit" : "V",
+				"use_si" : true,
+				"digits" : 2
+			},
+			{
+				"name": "max_forward_current",
+				"display_name" : "Max Forward Current",
+				"type" : "quantity",
+				"unit" : "A",
+				"use_si" : true,
+				"digits" : 2
+			},
+			{
+				"name" : "package",
+				"display_name": "Package",
+				"type" : "enum",
+				"items" : [
+					"DO-214AC"
+				]
+			},
+			{
+				"name": "price",
+				"display_name" : "Price",
+				"type" : "quantity",
+				"unit" : "€",
+				"use_si" : false,
+				"digits" : 4
+			}
+		]
+	},
+	"diodes_schottky" : {
+		"display_name": "Diodes - Schottky",
+		"columns" : [
+			{
+				"name": "forward_voltage_drop",
+				"display_name" : "Forward Voltage Drop",
+				"type" : "quantity",
+				"unit" : "V",
+				"use_si" : true,
+				"digits" : 2
+			},
+			{
+				"name": "peak_inverse_voltage",
+				"display_name" : "Peak Inverse Voltage",
+				"type" : "quantity",
+				"unit" : "V",
+				"use_si" : true,
+				"digits" : 2
+			},
+			{
+				"name": "max_forward_current",
+				"display_name" : "Max Forward Current",
+				"type" : "quantity",
+				"unit" : "A",
+				"use_si" : true,
+				"digits" : 2
+			},
+			{
+				"name" : "package",
+				"display_name": "Package",
+				"type" : "enum",
+				"items" : [
+					"SOD-523-2"
+				]
+			},
+			{
+				"name": "price",
+				"display_name" : "Price",
+				"type" : "quantity",
+				"unit" : "€",
+				"use_si" : false,
+				"digits" : 4
+			}
+		]
+	},
+	"diodes_switching" : {
+		"display_name": "Diodes - Small signal",
+		"columns" : [
+			{
+				"name": "forward_voltage_drop",
+				"display_name" : "Forward Voltage Drop",
+				"type" : "quantity",
+				"unit" : "V",
+				"use_si" : true,
+				"digits" : 2
+			},
+			{
+				"name": "peak_inverse_voltage",
+				"display_name" : "Peak Inverse Voltage",
+				"type" : "quantity",
+				"unit" : "V",
+				"use_si" : true,
+				"digits" : 2
+			},
+			{
+				"name": "max_forward_current",
+				"display_name" : "Max Forward Current",
+				"type" : "quantity",
+				"unit" : "A",
+				"use_si" : true,
+				"digits" : 2
+			},
+			{
+				"name" : "package",
+				"display_name": "Package",
+				"type" : "enum",
+				"items" : [
+					"SOD-323F-2"
+				]
+			},
+			{
+				"name": "price",
+				"display_name" : "Price",
+				"type" : "quantity",
+				"unit" : "€",
+				"use_si" : false,
+				"digits" : 4
+			}
+		]
+	},
+	"diodes_zener" : {
+		"display_name": "Diodes - Zener",
+		"columns" : [
+			{
+				"name": "zener_voltage",
+				"display_name" : "Zener Voltage",
+				"type" : "quantity",
+				"unit" : "V",
+				"use_si" : true,
+				"digits" : 2
+			},
+			{
+				"name": "voltage_tolerance",
+				"display_name" : "Voltage Tolerance",
+				"type" : "quantity",
+				"unit" : "%",
+				"use_si" : true,
+				"digits" : 0
+			},
+			{
+				"name": "power_rating",
+				"display_name" : "Power Rating",
+				"type" : "quantity",
+				"unit" : "W",
+				"use_si" : true,
+				"digits" : 2
+			},
+			{
+				"name" : "package",
+				"display_name": "Package",
+				"type" : "enum",
+				"items" : [
+					"SOD-123-2 "
+				]
+			},
+			{
+				"name": "price",
+				"display_name" : "Price",
+				"type" : "quantity",
+				"unit" : "€",
+				"use_si" : false,
+				"digits" : 4
+			}
+		]
+	},
+	"optocouplers" : {
+		"display_name": "Optocouplers",
+		"columns" : [
+			{
+				"name" : "type",
+				"display_name": "Type",
+				"type" : "enum",
+				"items" : [
+					"Photocoupler"
+				]
+			},
+			{
+				"name": "forward_current",
+				"display_name" : "Forward Current",
+				"type" : "quantity",
+				"unit" : "A",
+				"use_si" : true,
+				"digits" : 2
+			},
+			{
+				"name": "forward_voltage",
+				"display_name" : "Forward Voltage",
+				"type" : "quantity",
+				"unit" : "V",
+				"use_si" : true,
+				"digits" : 2
+			},
+			{
+				"name": "reverse_voltage",
+				"display_name" : "Reverse Voltage",
+				"type" : "quantity",
+				"unit" : "V",
+				"use_si" : true,
+				"digits" : 2
+			},
+			{
+				"name": "price",
+				"display_name" : "Price",
+				"type" : "quantity",
+				"unit" : "€",
+				"use_si" : false,
+				"digits" : 4
+			}
+		]
+	},
+	"potentiometers" : {
+		"display_name": "Potentiometers",
+		"columns" : [
+			{
+				"name": "value",
+				"display_name" : "Value",
+				"type" : "quantity",
+				"unit" : "Ω",
+				"use_si" : true,
+				"digits" : 2
+			},
+			{
+				"name" : "type",
+				"display_name": "Type",
+				"type" : "enum",
+				"items" : [
+					"Linear",
+					"Logarithm",
+					"Anti-Logarithm"
+				]
+			},
+			{
+				"name": "price",
+				"display_name" : "Price",
+				"type" : "quantity",
+				"unit" : "€",
+				"use_si" : false,
+				"digits" : 4
+			}
+		]
+	},
+	"relays" : {
+		"display_name": "Relays",
+		"columns" : [
+			{
+				"name" : "contact_form",
+				"display_name": "Contact Form",
+				"type" : "enum",
+				"items" : [
+					"DPDT"
+				]
+			},
+			{
+				"name": "current_rating",
+				"display_name" : "Current Rating",
+				"type" : "quantity",
+				"unit" : "A",
+				"use_si" : true,
+				"digits" : 2
+			},
+			{
+				"name": "coil_voltage",
+				"display_name" : "Coil Voltage",
+				"type" : "quantity",
+				"unit" : "V",
+				"use_si" : true,
+				"digits" : 2
+			},
+			{
+				"name": "coil_resistance",
+				"display_name" : "Coil Resistance",
+				"type" : "quantity",
+				"unit" : "Ω",
+				"use_si" : true,
+				"digits" : 2
+			},
+			{
+				"name": "coil_current",
+				"display_name" : "Coil Current",
+				"type" : "quantity",
+				"unit" : "A",
+				"use_si" : true,
+				"digits" : 2
+			},
+			{
+				"name": "price",
+				"display_name" : "Price",
+				"type" : "quantity",
+				"unit" : "€",
+				"use_si" : false,
+				"digits" : 4
+			}
+		]
+	},
+	"resistors" : {
+		"display_name": "Resistors",
+		"columns" : [
+			{
+				"name": "value",
+				"display_name" : "Value",
+				"type" : "quantity",
+				"unit" : "Ω",
+				"use_si" : true,
+				"digits" : 2
+			},
+			{
+				"name" : "tolerance",
+				"display_name": "Tolerance",
+				"type" : "quantity",
+				"unit" : "%",
+				"use_si" : false
+			},
+			{
+				"name": "pmax",
+				"display_name": "Power rating",
+				"type" : "quantity",
+				"unit" : "W",
+				"use_si" : false,
+				"digits" : 3
+			},
+			{
+				"name" : "package",
+				"display_name": "Package",
+				"type" : "enum",
+				"items" : [
+					"0603",
+					"0805",
+					"1206"
+				]
+			},
+			{
+				"name": "price",
+				"display_name" : "Price",
+				"type" : "quantity",
+				"unit" : "€",
+				"use_si" : false,
+				"digits" : 4
+			}
+		]
+	},
+	"switches" : {
+		"display_name": "Switches",
+		"columns" : [
+			{
+				"name" : "contact_form",
+				"display_name": "Contact Form",
+				"type" : "enum",
+				"items" : [
+					"SPST",
+					"SPDT",
+					"DPDT"
+				]
+			},
+			{
+				"name" : "contact_type",
+				"display_name": "Contact Type",
+				"type" : "enum",
+				"items" : [
+					"ON-OFF",
+					"ON-ON",
+					"ON-OFF-ON"
+				]
+			},
+			{
+				"name" : "switch_type",
+				"display_name": "Switch Type",
+				"type" : "enum",
+				"items" : [
+					"DIP",
+					"Footswitch",
+					"Slide",
+					"Toggle"
+				]
+			},
+			{
+				"name": "current_rating",
+				"display_name" : "Current Rating",
+				"type" : "quantity",
+				"unit" : "A",
+				"use_si" : true,
+				"digits" : 2
+			},
+			{
+				"name": "voltage_rating",
+				"display_name" : "Voltage Rating",
+				"type" : "quantity",
+				"unit" : "V",
+				"use_si" : true,
+				"digits" : 2
+			},
+			{
+				"name": "price",
+				"display_name" : "Price",
+				"type" : "quantity",
+				"unit" : "€",
+				"use_si" : false,
+				"digits" : 4
+			}
+		]
+	},
+	"transistors" : {
+		"display_name": "Transistors",
+		"columns" : [
+			{
+				"name" : "type",
+				"display_name": "Type",
+				"type" : "enum",
+				"items" : [
+					"PNP",
+					"NPN",
+					"JFET P-Channel",
+					"JFET N-Channel",
+					"MOSFET N-Channel",
+					"MOSFET P-Channel"
+				]
+			},
+			{
+				"name" : "package",
+				"display_name": "Package",
+				"type" : "enum",
+				"items" : [
+					"SOT-23-3",
+					"SOT-323-3"
+				]
+			},
+			{
+				"name": "price",
+				"display_name" : "Price",
+				"type" : "quantity",
+				"unit" : "€",
+				"use_si" : false,
+				"digits" : 4
+			}
+		]
+	},
+	"general" : {
+		"display_name": "General",
+		"columns" : [
+			{
+				"name": "price",
+				"display_name" : "Price",
+				"type" : "quantity",
+				"unit" : "€",
+				"use_si" : false,
+				"digits" : 4
+			}
+		]
+	}
+}
+}

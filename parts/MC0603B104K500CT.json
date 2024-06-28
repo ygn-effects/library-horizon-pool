@@ -1,0 +1,43 @@
+{
+    "MPN": [
+        false,
+        "MC0603B104K500CT"
+    ],
+    "datasheet": [
+        false,
+        ""
+    ],
+    "description": [
+        false,
+        "CAPACITOR MLCC 100NF X7R 0603 50V ±10%"
+    ],
+    "entity": "ca83a84f-6183-4088-84b6-5d79b2a119d4",
+    "inherit_model": false,
+    "inherit_tags": false,
+    "manufacturer": [
+        false,
+        "Multicomp"
+    ],
+    "model": "8c79c731-9d95-47f0-bcd9-079ebeca5b5a",
+    "orderable_MPNs": {
+        "babc3665-6f6f-44eb-bf87-008ff1fc2a7e": "1759122"
+    },
+    "package": "da8061cd-7ed9-4788-a76a-968f861d8e6c",
+    "pad_map": {},
+    "parametric": {
+        "package": "0603",
+        "price": "0.0192",
+        "table": "capacitors",
+        "tolerance": "10",
+        "type": "X7R",
+        "value": "1e-07",
+        "wvdc": "50"
+    },
+    "tags": [],
+    "type": "part",
+    "uuid": "237a5a53-0d06-4f1a-9080-3fa2554bceea",
+    "value": [
+        false,
+        "100n"
+    ]
+}

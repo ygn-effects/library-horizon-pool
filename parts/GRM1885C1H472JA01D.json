@@ -1,0 +1,40 @@
+{
+    "MPN": [
+        false,
+        "GRM1885C1H472JA01D"
+    ],
+    "datasheet": [
+        false,
+        ""
+    ],
+    "description": [
+        false,
+        "CAPACITOR MLCC 4.7NF C0G/NP0 0603 50V ±5%"
+    ],
+    "entity": "ca83a84f-6183-4088-84b6-5d79b2a119d4",
+    "inherit_model": false,
+    "inherit_tags": false,
+    "manufacturer": [
+        false,
+        "Murata"
+    ],
+    "model": "8c79c731-9d95-47f0-bcd9-079ebeca5b5a",
+    "package": "da8061cd-7ed9-4788-a76a-968f861d8e6c",
+    "pad_map": {},
+    "parametric": {
+        "package": "0603",
+        "price": "0.03",
+        "table": "capacitors",
+        "tolerance": "5",
+        "type": "C0G/NP0",
+        "value": "4.7e-09",
+        "wvdc": "50"
+    },
+    "tags": [],
+    "type": "part",
+    "uuid": "b143a145-e51a-4b2a-8012-d90aec7c3ba2",
+    "value": [
+        false,
+        "4.7n"
+    ]
+}

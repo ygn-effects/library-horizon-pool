@@ -1,0 +1,40 @@
+{
+    "MPN": [
+        false,
+        "MCVVT025M101EA6L"
+    ],
+    "datasheet": [
+        false,
+        ""
+    ],
+    "description": [
+        false,
+        "CAPACITOR ALUM 100UF 25V ±20%"
+    ],
+    "entity": "b0c2b8f8-aecf-4873-9458-c06eee2f7a00",
+    "inherit_model": false,
+    "inherit_tags": false,
+    "manufacturer": [
+        false,
+        "Multicomp"
+    ],
+    "model": "617ce3a9-1801-4b7b-8cec-c09cae32d787",
+    "package": "b1dabf1b-91ef-45b3-b686-26d62bcf4d69",
+    "pad_map": {},
+    "parametric": {
+        "package": "6.3x5.4mm",
+        "price": "0.0989",
+        "table": "capacitors",
+        "tolerance": "20",
+        "type": "Electrolytic",
+        "value": "0.0001",
+        "wvdc": "25"
+    },
+    "tags": [],
+    "type": "part",
+    "uuid": "a61500df-7599-4e87-8282-66a58fd98ee0",
+    "value": [
+        false,
+        "100u"
+    ]
+}

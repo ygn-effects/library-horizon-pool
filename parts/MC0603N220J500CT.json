@@ -1,0 +1,40 @@
+{
+    "MPN": [
+        false,
+        "MC0603N220J500CT"
+    ],
+    "datasheet": [
+        false,
+        ""
+    ],
+    "description": [
+        false,
+        "CAPACITOR MLCC 22PF C0G/NP0 0603 50V ±5%"
+    ],
+    "entity": "ca83a84f-6183-4088-84b6-5d79b2a119d4",
+    "inherit_model": false,
+    "inherit_tags": false,
+    "manufacturer": [
+        false,
+        "Multicomp"
+    ],
+    "model": "8c79c731-9d95-47f0-bcd9-079ebeca5b5a",
+    "package": "da8061cd-7ed9-4788-a76a-968f861d8e6c",
+    "pad_map": {},
+    "parametric": {
+        "package": "0603",
+        "price": "0.0245",
+        "table": "capacitors",
+        "tolerance": "5",
+        "type": "C0G/NP0",
+        "value": "2.2e-11",
+        "wvdc": "50"
+    },
+    "tags": [],
+    "type": "part",
+    "uuid": "b781c400-6f51-45eb-9aef-8ac20b823547",
+    "value": [
+        false,
+        "22p"
+    ]
+}
