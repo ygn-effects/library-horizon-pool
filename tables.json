@@ -124,6 +124,14 @@
 					"Right Angle",
 					"Straight"
 				]
+			},
+			{
+				"name": "price",
+				"display_name" : "Price",
+				"type" : "quantity",
+				"unit" : "€",
+				"use_si" : false,
+				"digits" : 4
 			}
 		]
 	},
@@ -158,6 +166,14 @@
 					"Right Angle",
 					"Straight"
 				]
+			},
+			{
+				"name": "price",
+				"display_name" : "Price",
+				"type" : "quantity",
+				"unit" : "€",
+				"use_si" : false,
+				"digits" : 4
 			}
 		]
 	},
