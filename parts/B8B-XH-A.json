@@ -1,0 +1,73 @@
+{
+    "MPN": [
+        false,
+        "B8B-XH-A"
+    ],
+    "datasheet": [
+        false,
+        ""
+    ],
+    "description": [
+        false,
+        "HEADER XH MALE 1X8 PINS 2.5MM PITCH STRAIGHT"
+    ],
+    "entity": "78a1af44-52b0-4372-b88a-b567727e8f60",
+    "inherit_model": true,
+    "inherit_tags": false,
+    "manufacturer": [
+        false,
+        "JST"
+    ],
+    "model": "c9db1be7-be77-4f41-ac67-5e7be6ee185b",
+    "package": "f953fd41-d34a-43cf-8e0a-3e4fdd5ff1c7",
+    "pad_map": {
+        "2848d2a1-a7b9-4933-8f31-f550c39af275": {
+            "gate": "bf838752-8763-4f26-b873-6f4f2e6b50be",
+            "pin": "c2bea679-4226-4dd6-b690-ca50d671b4fb"
+        },
+        "42964998-2abe-410e-a523-52589cba459e": {
+            "gate": "bf838752-8763-4f26-b873-6f4f2e6b50be",
+            "pin": "0659e4da-e63f-4dd8-bf52-3e727c91eee7"
+        },
+        "6b576dc6-1f93-406a-9d8b-f230be7eae6e": {
+            "gate": "bf838752-8763-4f26-b873-6f4f2e6b50be",
+            "pin": "d962c205-4829-4120-b15c-1c5104eb0c5a"
+        },
+        "829ba6ce-982f-4e4c-b892-811fc6489d06": {
+            "gate": "bf838752-8763-4f26-b873-6f4f2e6b50be",
+            "pin": "583b7833-11a6-4783-b7d9-2fd1f56a8a4c"
+        },
+        "9818fdf2-0683-477a-be44-aa7f2607a2d1": {
+            "gate": "bf838752-8763-4f26-b873-6f4f2e6b50be",
+            "pin": "42f52ee0-d906-4ec9-b85e-91a2eff5b7ad"
+        },
+        "b91d8f83-d836-4d85-a289-0810c07673f8": {
+            "gate": "bf838752-8763-4f26-b873-6f4f2e6b50be",
+            "pin": "11afc6e0-a972-42dc-8cd7-ab2bc97d4496"
+        },
+        "d0ac82d2-5381-43b5-a9eb-d71ce18bc3b9": {
+            "gate": "bf838752-8763-4f26-b873-6f4f2e6b50be",
+            "pin": "139580f6-31c0-4d75-8427-cfc1b742beac"
+        },
+        "d12946bd-dcd1-4f7d-bcfa-d91759154a4f": {
+            "gate": "bf838752-8763-4f26-b873-6f4f2e6b50be",
+            "pin": "480520ff-3594-4b72-9857-e517206b59fd"
+        }
+    },
+    "parametric": {
+        "mounting_angle": "Straight",
+        "mounting_style": "PCB",
+        "pitch": "2.5",
+        "positions": "8",
+        "price": "0.252",
+        "rows": "1",
+        "table": "connectors_headers"
+    },
+    "tags": [],
+    "type": "part",
+    "uuid": "18f2d57a-50d9-4bd1-9d8a-152682e9b870",
+    "value": [
+        false,
+        ""
+    ]
+}
