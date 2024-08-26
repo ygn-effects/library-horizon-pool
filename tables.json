@@ -438,59 +438,59 @@
 		"columns" : [
 			{
 				"name": "voltage_rating",
-				"display_name" : "Voltage Rating",
-				"type" : "quantity",
-				"unit" : "V",
-				"use_si" : false,
-				"digits" : 2
+				"display_name": "Voltage Rating",
+				"type": "quantity",
+				"unit": "V",
+				"use_si": false,
+				"digits": 2
 			},
 			{
 				"name": "current_rating",
-				"display_name" : "Current Rating",
-				"type" : "quantity",
-				"unit" : "A",
-				"use_si" : false,
-				"digits" : 2
+				"display_name": "Current Rating",
+				"type": "quantity",
+				"unit": "A",
+				"use_si": false,
+				"digits": 2
 			},
 			{
 				"name": "holding_current",
-				"display_name" : "Holding Current",
-				"type" : "quantity",
-				"unit" : "A",
-				"use_si" : false,
-				"digits" : 2
+				"display_name": "Holding Current",
+				"type": "quantity",
+				"unit": "A",
+				"use_si": false,
+				"digits": 2
 			},
 			{
 				"name": "tripping_current",
-				"display_name" : "Tripping Current",
-				"type" : "quantity",
-				"unit" : "A",
-				"use_si" : false,
-				"digits" : 2
+				"display_name": "Tripping Current",
+				"type": "quantity",
+				"unit": "A",
+				"use_si": false,
+				"digits": 2
 			},
 			{
 				"name": "time_to_trip",
-				"display_name" : "Time to Trip",
-				"type" : "quantity",
-				"unit" : "s",
-				"use_si" : false,
-				"digits" : 2
+				"display_name": "Time to Trip",
+				"type": "quantity",
+				"unit": "s",
+				"use_si": false,
+				"digits": 2
 			},
 			{
-				"name" : "package",
+				"name": "package",
 				"display_name": "Package",
-				"type" : "enum",
-				"items" : [
+				"type": "enum",
+				"items": [
 					"1206"
 				]
 			},
 			{
 				"name": "price",
-				"display_name" : "Price",
-				"type" : "quantity",
-				"unit" : "€",
-				"use_si" : false,
-				"digits" : 4
+				"display_name": "Price",
+				"type": "quantity",
+				"unit": "€",
+				"use_si": false,
+				"digits": 4
 			}
 		]
 	},
