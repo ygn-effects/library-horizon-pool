@@ -80,6 +80,103 @@
 			}
 		]
 	},
+	"connectors_headers" : {
+		"display_name": "Connectors - Headers",
+		"columns" : [
+			{
+				"name": "positions",
+				"display_name" : "Number of Positions",
+				"type" : "quantity",
+				"unit" : "",
+				"use_si" : true,
+				"digits" : 0
+			},
+			{
+				"name": "rows",
+				"display_name" : "Number of Rows",
+				"type" : "quantity",
+				"unit" : "",
+				"use_si" : true,
+				"digits" : 0
+			},
+			{
+				"name": "pitch",
+				"display_name" : "Pitch",
+				"type" : "quantity",
+				"unit" : "mm",
+				"use_si" : true,
+				"digits" : 2
+			},
+			{
+				"name" : "mounting_style",
+				"display_name": "Mounting Style",
+				"type" : "enum",
+				"items" : [
+					"PCB",
+					"Panel Mount"
+				]
+			},
+			{
+				"name" : "mounting_angle",
+				"display_name": "Mounting Angle",
+				"type" : "enum",
+				"items" : [
+					"Right Angle",
+					"Straight"
+				]
+			},
+			{
+				"name": "price",
+				"display_name" : "Price",
+				"type" : "quantity",
+				"unit" : "€",
+				"use_si" : false,
+				"digits" : 4
+			}
+		]
+	},
+	"connectors_jacks" : {
+		"display_name": "Connectors - Jacks",
+		"columns" : [
+			{
+				"name": "positions",
+				"display_name" : "Number of Positions",
+				"type" : "enum",
+				"items" : [
+					"Mono",
+					"Mono Switched",
+					"Stereo",
+					"Stereo Switched"
+				]
+			},
+			{
+				"name" : "mounting_style",
+				"display_name": "Mounting Style",
+				"type" : "enum",
+				"items" : [
+					"PCB",
+					"Panel Mount"
+				]
+			},
+			{
+				"name" : "mounting_angle",
+				"display_name": "Mounting Angle",
+				"type" : "enum",
+				"items" : [
+					"Right Angle",
+					"Straight"
+				]
+			},
+			{
+				"name": "price",
+				"display_name" : "Price",
+				"type" : "quantity",
+				"unit" : "€",
+				"use_si" : false,
+				"digits" : 4
+			}
+		]
+	},
 	"diodes_rectifiers" : {
 		"display_name": "Diodes - Rectifiers",
 		"columns" : [
@@ -333,6 +430,67 @@
 				"unit" : "€",
 				"use_si" : false,
 				"digits" : 4
+			}
+		]
+	},
+	"pptc" : {
+		"display_name": "PPTC",
+		"columns" : [
+			{
+				"name": "voltage_rating",
+				"display_name": "Voltage Rating",
+				"type": "quantity",
+				"unit": "V",
+				"use_si": false,
+				"digits": 2
+			},
+			{
+				"name": "current_rating",
+				"display_name": "Current Rating",
+				"type": "quantity",
+				"unit": "A",
+				"use_si": false,
+				"digits": 2
+			},
+			{
+				"name": "holding_current",
+				"display_name": "Holding Current",
+				"type": "quantity",
+				"unit": "A",
+				"use_si": false,
+				"digits": 2
+			},
+			{
+				"name": "tripping_current",
+				"display_name": "Tripping Current",
+				"type": "quantity",
+				"unit": "A",
+				"use_si": false,
+				"digits": 2
+			},
+			{
+				"name": "time_to_trip",
+				"display_name": "Time to Trip",
+				"type": "quantity",
+				"unit": "s",
+				"use_si": false,
+				"digits": 2
+			},
+			{
+				"name": "package",
+				"display_name": "Package",
+				"type": "enum",
+				"items": [
+					"1206"
+				]
+			},
+			{
+				"name": "price",
+				"display_name": "Price",
+				"type": "quantity",
+				"unit": "€",
+				"use_si": false,
+				"digits": 4
 			}
 		]
 	},
