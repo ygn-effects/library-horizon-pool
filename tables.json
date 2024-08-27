@@ -1,61 +1,63 @@
 {
 "tables": {
-	"capacitors" : {
-		"display_name": "Capacitors",
-		"columns" : [
+	"capacitors_electrolytic": {
+		"display_name": "Capacitors - Electrolytic",
+		"columns": [
 			{
 				"name": "value",
-				"display_name" : "Value",
-				"type" : "quantity",
-				"unit" : "F",
-				"use_si" : true,
-				"digits" : 2
+				"display_name": "Capacitance",
+				"type": "quantity",
+				"unit": "F",
+				"use_si": true,
+				"digits": 2
 			},
 			{
-				"name" : "wvdc",
-				"display_name": "Voltage rating",
-				"type" : "quantity",
-				"unit" : "V",
-				"use_si" : false
+				"name": "wvdc",
+				"display_name": "Working Voltage (WVDC)",
+				"type": "quantity",
+				"unit": "V",
+				"use_si": true,
+				"digits": 2
 			},
 			{
-				"name" : "type",
-				"display_name": "Type",
-				"type" : "enum",
-				"items" : [
-					"Electrolytic",
-					"C0G/NP0",
-					"C0H",
-					"U2J",
-					"X8L",
-					"X5R",
-					"X7R",
-					"X8R",
-					"X5S",
-					"X6S",
-					"X7S",
-					"X6T",
-					"X7T",
-					"X7U",
-					"Y5V",
-					"SL",
-					"CH",
-					"CJ",
-					"UJ",
-					"CK",
-					"B",
-					"R"
+				"name": "esr",
+				"display_name": "Equivalent Series Resistance (ESR)",
+				"type": "quantity",
+				"unit": "Ω",
+				"use_si": true,
+				"digits": 4
+			},
+			{
+				"name": "lifetime",
+				"display_name": "Lifetime",
+				"type": "quantity",
+				"unit": "H",
+				"use_si": false,
+				"digits": 0
+			},
+			{
+				"name": "tolerance",
+				"display_name": "Tolerance",
+				"type": "quantity",
+				"unit": "%",
+				"use_si": false,
+				"digits": 2
+			},
+			{
+				"name": "package",
+				"display_name": "Package",
+				"type": "enum",
+				"items": [
+					"Radial",
+					"Axial",
+					"SMD"
 				]
 			},
 			{
-				"name" : "package",
-				"display_name": "Package",
-				"type" : "enum",
-				"items" : [
-					"0603",
-					"0805",
-					"1206",
-					"G2",
+				"name": "size",
+				"display_name": "Size",
+				"type": "enum",
+				"items": [
 					"4x5.4mm",
 					"5x5.4mm",
 					"6.3x5.4mm",
@@ -63,20 +65,140 @@
 				]
 			},
 			{
-				"name" : "tolerance",
+				"name": "price",
+				"display_name": "Price",
+				"type": "quantity",
+				"unit": "€",
+				"use_si": false,
+				"digits": 4
+			}
+		]
+	},
+	"capacitors_films": {
+		"display_name": "Capacitors - Films",
+		"columns": [
+			{
+				"name": "value",
+				"display_name": "Capacitance",
+				"type": "quantity",
+				"unit": "F",
+				"use_si": true,
+				"digits": 2
+			},
+			{
+				"name": "wvdc",
+				"display_name": "Working Voltage (WVDC)",
+				"type": "quantity",
+				"unit": "V",
+				"use_si": true,
+				"digits": 2
+			},
+			{
+				"name": "dielectric",
+				"display_name": "Dielectric Type",
+				"type": "enum",
+				"items": [
+					"Polyester (PET)",
+					"Polypropylene (PP)",
+					"Polystyrene (PS)",
+					"Polyphenylene Sulfide (PPS)",
+					"Polyethylene Naphthalate (PEN)"
+				]
+			},
+			{
+				"name": "tolerance",
 				"display_name": "Tolerance",
-				"type" : "quantity",
-				"unit" : "%",
-				"use_si" : false,
-				"required": false
+				"type": "quantity",
+				"unit": "%",
+				"use_si": false,
+				"digits": 2
+			},
+			{
+				"name": "package",
+				"display_name": "Package",
+				"type": "enum",
+				"items": [
+					"Radial",
+					"Axial",
+					"Box",
+					"SMD"
+				]
+			},
+			{
+				"name": "size",
+				"display_name": "Size",
+				"type": "enum",
+				"items": [
+					"G2"
+				]
 			},
 			{
 				"name": "price",
-				"display_name" : "Price",
-				"type" : "quantity",
-				"unit" : "€",
-				"use_si" : false,
-				"digits" : 4
+				"display_name": "Price",
+				"type": "quantity",
+				"unit": "€",
+				"use_si": false,
+				"digits": 4
+			}
+		]
+	},
+	"capacitors_mlcc": {
+		"display_name": "Capacitors - MLCC",
+		"columns": [
+			{
+				"name": "value",
+				"display_name": "Capacitance",
+				"type": "quantity",
+				"unit": "F",
+				"use_si": true,
+				"digits": 2
+			},
+			{
+				"name": "wvdc",
+				"display_name": "Working Voltage (WVDC)",
+				"type": "quantity",
+				"unit": "V",
+				"use_si": true,
+				"digits": 2
+			},
+			{
+				"name": "dielectric",
+				"display_name": "Dielectric Type",
+				"type": "enum",
+				"items": [
+					"C0G/NP0",
+					"X7R",
+					"X5R",
+					"Y5V",
+					"Z5U",
+					"U2J"
+				]
+			},
+			{
+				"name": "tolerance",
+				"display_name": "Tolerance",
+				"type": "quantity",
+				"unit": "%",
+				"use_si": false,
+				"digits": 2
+			},
+			{
+				"name": "package",
+				"display_name": "Package",
+				"type": "enum",
+				"items": [
+					"0603",
+					"0805",
+					"1206"
+				]
+			},
+			{
+				"name": "price",
+				"display_name": "Price",
+				"type": "quantity",
+				"unit": "€",
+				"use_si": false,
+				"digits": 4
 			}
 		]
 	},
