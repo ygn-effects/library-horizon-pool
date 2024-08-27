@@ -629,48 +629,95 @@
 			}
 		]
 	},
-	"optocouplers" : {
+	"optocouplers": {
 		"display_name": "Optocouplers",
-		"columns" : [
+		"columns": [
 			{
-				"name" : "type",
+				"name": "type",
 				"display_name": "Type",
-				"type" : "enum",
-				"items" : [
-					"Photocoupler"
+				"type": "enum",
+				"items": [
+					"Photocoupler",
+					"Phototransistor",
+					"Photodarlington",
+					"Photothyristor",
+					"Phototriac"
 				]
 			},
 			{
-				"name": "forward_current",
-				"display_name" : "Forward Current",
-				"type" : "quantity",
-				"unit" : "A",
-				"use_si" : true,
-				"digits" : 2
+				"name": "v_f",
+				"display_name": "Forward Voltage (Vf)",
+				"type": "quantity",
+				"unit": "V",
+				"use_si": true,
+				"digits": 2
 			},
 			{
-				"name": "forward_voltage",
-				"display_name" : "Forward Voltage",
-				"type" : "quantity",
-				"unit" : "V",
-				"use_si" : true,
-				"digits" : 2
+				"name": "i_f",
+				"display_name": "Forward Current (If)",
+				"type": "quantity",
+				"unit": "A",
+				"use_si": true,
+				"digits": 2
 			},
 			{
-				"name": "reverse_voltage",
-				"display_name" : "Reverse Voltage",
-				"type" : "quantity",
-				"unit" : "V",
-				"use_si" : true,
-				"digits" : 2
+				"name": "v_r",
+				"display_name": "Reverse Voltage (Vr)",
+				"type": "quantity",
+				"unit": "V",
+				"use_si": true,
+				"digits": 2
+			},
+			{
+				"name": "ctr",
+				"display_name": "Current Transfer Ratio (CTR)",
+				"type": "quantity",
+				"unit": "%",
+				"use_si": false,
+				"digits": 0
+			},
+			{
+				"name": "v_iso",
+				"display_name": "Isolation Voltage (Viso)",
+				"type": "quantity",
+				"unit": "V",
+				"use_si": true,
+				"digits": 2
+			},
+			{
+				"name": "t_r",
+				"display_name": "Rise Time (tr)",
+				"type": "quantity",
+				"unit": "µs",
+				"use_si": true,
+				"digits": 2,
+				"required": false
+			},
+			{
+				"name": "t_f",
+				"display_name": "Fall Time (tf)",
+				"type": "quantity",
+				"unit": "µs",
+				"use_si": true,
+				"digits": 2,
+				"required": false
+			},
+			{
+				"name": "package",
+				"display_name": "Package",
+				"type": "enum",
+				"items": [
+					"SOP-4",
+					"SOP-6"
+				]
 			},
 			{
 				"name": "price",
-				"display_name" : "Price",
-				"type" : "quantity",
-				"unit" : "€",
-				"use_si" : false,
-				"digits" : 4
+				"display_name": "Price",
+				"type": "quantity",
+				"unit": "€",
+				"use_si": false,
+				"digits": 4
 			}
 		]
 	},
