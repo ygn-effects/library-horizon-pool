@@ -1073,63 +1073,109 @@
 			}
 		]
 	},
-	"switches" : {
+	"switches": {
 		"display_name": "Switches",
-		"columns" : [
+		"columns": [
 			{
-				"name" : "contact_form",
+				"name": "contact_form",
 				"display_name": "Contact Form",
-				"type" : "enum",
-				"items" : [
+				"type": "enum",
+				"items": [
 					"SPST",
 					"SPDT",
-					"DPDT"
+					"DPST",
+					"DPDT",
+					"3PDT",
+					"4PDT"
 				]
 			},
 			{
-				"name" : "contact_type",
+				"name": "contact_type",
 				"display_name": "Contact Type",
-				"type" : "enum",
-				"items" : [
+				"type": "enum",
+				"items": [
 					"ON-OFF",
 					"ON-ON",
-					"ON-OFF-ON"
+					"ON-OFF-ON",
+					"Momentary"
 				]
 			},
 			{
-				"name" : "switch_type",
+				"name": "switch_type",
 				"display_name": "Switch Type",
-				"type" : "enum",
-				"items" : [
+				"type": "enum",
+				"items": [
 					"DIP",
 					"Footswitch",
 					"Slide",
-					"Toggle"
+					"Toggle",
+					"Push Button",
+					"Rotary",
+					"Rocker"
 				]
 			},
 			{
 				"name": "current_rating",
-				"display_name" : "Current Rating",
-				"type" : "quantity",
-				"unit" : "A",
-				"use_si" : true,
-				"digits" : 2
+				"display_name": "Current Rating",
+				"type": "quantity",
+				"unit": "A",
+				"use_si": true,
+				"digits": 2
 			},
 			{
 				"name": "voltage_rating",
-				"display_name" : "Voltage Rating",
-				"type" : "quantity",
-				"unit" : "V",
-				"use_si" : true,
-				"digits" : 2
+				"display_name": "Voltage Rating",
+				"type": "quantity",
+				"unit": "V",
+				"use_si": true,
+				"digits": 2
+			},
+			{
+				"name": "mechanical_life",
+				"display_name": "Mechanical Life",
+				"type": "quantity",
+				"unit": "Cycles",
+				"use_si": false,
+				"digits": 0
+			},
+			{
+				"name": "contact_material",
+				"display_name": "Contact Material",
+				"type": "enum",
+				"items": [
+					"Silver",
+					"Gold",
+					"Silver Alloy",
+					"Other"
+				]
+			},
+			{
+				"name": "mounting_type",
+				"display_name": "Mounting Type",
+				"type": "enum",
+				"items": [
+					"Through Hole",
+					"SMD",
+					"Panel Mount"
+				]
+			},
+			{
+				"name": "mounting_angle",
+				"display_name": "Mounting Angle",
+				"type": "enum",
+				"items": [
+					"Right Angle",
+					"Straight",
+					"Vertical"
+				]
 			},
 			{
 				"name": "price",
-				"display_name" : "Price",
-				"type" : "quantity",
-				"unit" : "€",
-				"use_si" : false,
-				"digits" : 4
+				"display_name": "Price",
+				"type": "quantity",
+				"unit": "€",
+				"use_si": false,
+				"digits": 4
 			}
 		]
 	},
