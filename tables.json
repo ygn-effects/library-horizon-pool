@@ -1010,37 +1010,54 @@
 			}
 		]
 	},
-	"resistors" : {
-		"display_name": "Resistors",
-		"columns" : [
+	"resistors_film": {
+		"display_name": "Resistors - Film",
+		"columns": [
 			{
 				"name": "value",
-				"display_name" : "Value",
-				"type" : "quantity",
-				"unit" : "Ω",
-				"use_si" : true,
-				"digits" : 2
+				"display_name": "Resistance Value",
+				"type": "quantity",
+				"unit": "Ω",
+				"use_si": true,
+				"digits": 2
 			},
 			{
-				"name" : "tolerance",
+				"name": "tolerance",
 				"display_name": "Tolerance",
-				"type" : "quantity",
-				"unit" : "%",
-				"use_si" : false
+				"type": "quantity",
+				"unit": "%",
+				"use_si": false,
+				"digits": 2
 			},
 			{
-				"name": "pmax",
-				"display_name": "Power rating",
-				"type" : "quantity",
-				"unit" : "W",
-				"use_si" : false,
-				"digits" : 3
+				"name": "p_max",
+				"display_name": "Power Rating (Pmax)",
+				"type": "quantity",
+				"unit": "W",
+				"use_si": true,
+				"digits": 2
 			},
 			{
-				"name" : "package",
+				"name": "tcr",
+				"display_name": "Temperature Coefficient (TCR)",
+				"type": "quantity",
+				"unit": "ppm/°C",
+				"use_si": true,
+				"digits": 2
+			},
+			{
+				"name": "v_max",
+				"display_name": "Voltage Rating (Vmax)",
+				"type": "quantity",
+				"unit": "V",
+				"use_si": true,
+				"digits": 2
+			},
+			{
+				"name": "package",
 				"display_name": "Package",
-				"type" : "enum",
-				"items" : [
+				"type": "enum",
+				"items": [
 					"0603",
 					"0805",
 					"1206"
@@ -1048,11 +1065,11 @@
 			},
 			{
 				"name": "price",
-				"display_name" : "Price",
-				"type" : "quantity",
-				"unit" : "€",
-				"use_si" : false,
-				"digits" : 4
+				"display_name": "Price",
+				"type": "quantity",
+				"unit": "€",
+				"use_si": false,
+				"digits": 4
 			}
 		]
 	},
