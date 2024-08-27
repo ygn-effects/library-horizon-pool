@@ -794,6 +794,16 @@
 				]
 			},
 			{
+				"name": "mounting_angle",
+				"display_name": "Mounting Angle",
+				"type": "enum",
+				"items": [
+					"Right Angle",
+					"Straight",
+					"Vertical"
+				]
+			},
+			{
 				"name": "shaft_length",
 				"display_name": "Shaft Length",
 				"type": "quantity",
