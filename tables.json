@@ -202,69 +202,98 @@
 			}
 		]
 	},
-	"connectors_headers" : {
+	"connectors_headers": {
 		"display_name": "Connectors - Headers",
-		"columns" : [
+		"columns": [
 			{
 				"name": "positions",
-				"display_name" : "Number of Positions",
-				"type" : "quantity",
-				"unit" : "",
-				"use_si" : true,
-				"digits" : 0
+				"display_name": "Number of Positions",
+				"type": "quantity",
+				"unit": "",
+				"use_si": true,
+				"digits": 0
 			},
 			{
 				"name": "rows",
-				"display_name" : "Number of Rows",
-				"type" : "quantity",
-				"unit" : "",
-				"use_si" : true,
-				"digits" : 0
+				"display_name": "Number of Rows",
+				"type": "quantity",
+				"unit": "",
+				"use_si": true,
+				"digits": 0
 			},
 			{
 				"name": "pitch",
-				"display_name" : "Pitch",
-				"type" : "quantity",
-				"unit" : "mm",
-				"use_si" : true,
-				"digits" : 2
+				"display_name": "Pitch",
+				"type": "quantity",
+				"unit": "mm",
+				"use_si": true,
+				"digits": 2
 			},
 			{
-				"name" : "mounting_style",
+				"name": "mounting_style",
 				"display_name": "Mounting Style",
-				"type" : "enum",
-				"items" : [
-					"PCB",
+				"type": "enum",
+				"items": [
+					"Through Hole",
+					"SMD",
 					"Panel Mount"
 				]
 			},
 			{
-				"name" : "mounting_angle",
+				"name": "mounting_angle",
 				"display_name": "Mounting Angle",
-				"type" : "enum",
-				"items" : [
+				"type": "enum",
+				"items": [
 					"Right Angle",
-					"Straight"
+					"Straight",
+					"Vertical"
 				]
 			},
 			{
+				"name": "contact_material",
+				"display_name": "Contact Material",
+				"type": "enum",
+				"items": [
+					"Gold",
+					"Tin",
+					"Nickel",
+					"Other"
+				]
+			},
+			{
+				"name": "current_rating",
+				"display_name": "Current Rating",
+				"type": "quantity",
+				"unit": "A",
+				"use_si": true,
+				"digits": 2
+			},
+			{
+				"name": "voltage_rating",
+				"display_name": "Voltage Rating",
+				"type": "quantity",
+				"unit": "V",
+				"use_si": true,
+				"digits": 2
+			},
+			{
 				"name": "price",
-				"display_name" : "Price",
-				"type" : "quantity",
-				"unit" : "€",
-				"use_si" : false,
-				"digits" : 4
+				"display_name": "Price",
+				"type": "quantity",
+				"unit": "€",
+				"use_si": false,
+				"digits": 4
 			}
 		]
 	},
-	"connectors_jacks" : {
+	"connectors_jacks": {
 		"display_name": "Connectors - Jacks",
-		"columns" : [
+		"columns": [
 			{
 				"name": "positions",
-				"display_name" : "Number of Positions",
-				"type" : "enum",
-				"items" : [
+				"display_name": "Number of Contacts",
+				"type": "enum",
+				"items": [
 					"Mono",
 					"Mono Switched",
 					"Stereo",
@@ -272,30 +301,60 @@
 				]
 			},
 			{
-				"name" : "mounting_style",
+				"name": "mounting_style",
 				"display_name": "Mounting Style",
-				"type" : "enum",
-				"items" : [
+				"type": "enum",
+				"items": [
 					"PCB",
-					"Panel Mount"
+					"Panel Mount",
+					"Through Hole",
+					"SMD"
 				]
 			},
 			{
-				"name" : "mounting_angle",
+				"name": "mounting_angle",
 				"display_name": "Mounting Angle",
-				"type" : "enum",
-				"items" : [
+				"type": "enum",
+				"items": [
 					"Right Angle",
-					"Straight"
+					"Straight",
+					"Vertical"
 				]
+			},
+			{
+				"name": "contact_material",
+				"display_name": "Contact Material",
+				"type": "enum",
+				"items": [
+					"Gold",
+					"Nickel",
+					"Silver",
+					"Other"
+				]
+			},
+			{
+				"name": "current_rating",
+				"display_name": "Current Rating",
+				"type": "quantity",
+				"unit": "A",
+				"use_si": true,
+				"digits": 2
+			},
+			{
+				"name": "voltage_rating",
+				"display_name": "Voltage Rating",
+				"type": "quantity",
+				"unit": "V",
+				"use_si": true,
+				"digits": 2
 			},
 			{
 				"name": "price",
-				"display_name" : "Price",
-				"type" : "quantity",
-				"unit" : "€",
-				"use_si" : false,
-				"digits" : 4
+				"display_name": "Price",
+				"type": "quantity",
+				"unit": "€",
+				"use_si": false,
+				"digits": 4
 			}
 		]
 	},
