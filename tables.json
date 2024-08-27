@@ -358,183 +358,274 @@
 			}
 		]
 	},
-	"diodes_rectifiers" : {
+	"diodes_rectifiers": {
 		"display_name": "Diodes - Rectifiers",
-		"columns" : [
+		"columns": [
 			{
-				"name": "forward_voltage_drop",
-				"display_name" : "Forward Voltage Drop",
-				"type" : "quantity",
-				"unit" : "V",
-				"use_si" : true,
-				"digits" : 2
+				"name": "v_f",
+				"display_name": "Forward Voltage Drop (Vf)",
+				"type": "quantity",
+				"unit": "V",
+				"use_si": true,
+				"digits": 2
 			},
 			{
-				"name": "peak_inverse_voltage",
-				"display_name" : "Peak Inverse Voltage",
-				"type" : "quantity",
-				"unit" : "V",
-				"use_si" : true,
-				"digits" : 2
+				"name": "v_r",
+				"display_name": "Peak Reverse Voltage (Vr)",
+				"type": "quantity",
+				"unit": "V",
+				"use_si": true,
+				"digits": 2
 			},
 			{
-				"name": "max_forward_current",
-				"display_name" : "Max Forward Current",
-				"type" : "quantity",
-				"unit" : "A",
-				"use_si" : true,
-				"digits" : 2
+				"name": "i_f",
+				"display_name": "Maximum Forward Current (If)",
+				"type": "quantity",
+				"unit": "A",
+				"use_si": true,
+				"digits": 2
 			},
 			{
-				"name" : "package",
+				"name": "trr",
+				"display_name": "Reverse Recovery Time (trr)",
+				"type": "quantity",
+				"unit": "s",
+				"use_si": true,
+				"digits": 2
+			},
+			{
+				"name": "p_max",
+				"display_name": "Power Dissipation (Pd)",
+				"type": "quantity",
+				"unit": "W",
+				"use_si": true,
+				"digits": 2
+			},
+			{
+				"name": "package",
 				"display_name": "Package",
-				"type" : "enum",
-				"items" : [
-					"DO-214AC"
+				"type": "enum",
+				"items": [
+					"DO-214AC",
+					"DO-41",
+					"DO-201",
+					"TO-220"
 				]
 			},
 			{
 				"name": "price",
-				"display_name" : "Price",
-				"type" : "quantity",
-				"unit" : "€",
-				"use_si" : false,
-				"digits" : 4
+				"display_name": "Price",
+				"type": "quantity",
+				"unit": "€",
+				"use_si": false,
+				"digits": 4
 			}
 		]
 	},
-	"diodes_schottky" : {
+	"diodes_schottky": {
 		"display_name": "Diodes - Schottky",
-		"columns" : [
+		"columns": [
 			{
-				"name": "forward_voltage_drop",
-				"display_name" : "Forward Voltage Drop",
-				"type" : "quantity",
-				"unit" : "V",
-				"use_si" : true,
-				"digits" : 2
+				"name": "v_f",
+				"display_name": "Forward Voltage Drop (Vf)",
+				"type": "quantity",
+				"unit": "V",
+				"use_si": true,
+				"digits": 2
 			},
 			{
-				"name": "peak_inverse_voltage",
-				"display_name" : "Peak Inverse Voltage",
-				"type" : "quantity",
-				"unit" : "V",
-				"use_si" : true,
-				"digits" : 2
+				"name": "v_r",
+				"display_name": "Peak Reverse Voltage (Vr)",
+				"type": "quantity",
+				"unit": "V",
+				"use_si": true,
+				"digits": 2
 			},
 			{
-				"name": "max_forward_current",
-				"display_name" : "Max Forward Current",
-				"type" : "quantity",
-				"unit" : "A",
-				"use_si" : true,
-				"digits" : 2
+				"name": "i_f",
+				"display_name": "Maximum Forward Current (If)",
+				"type": "quantity",
+				"unit": "A",
+				"use_si": true,
+				"digits": 2
 			},
 			{
-				"name" : "package",
+				"name": "trr",
+				"display_name": "Reverse Recovery Time (trr)",
+				"type": "quantity",
+				"unit": "ns",
+				"use_si": true,
+				"digits": 2
+			},
+			{
+				"name": "p_max",
+				"display_name": "Power Dissipation (Pd)",
+				"type": "quantity",
+				"unit": "W",
+				"use_si": true,
+				"digits": 2
+			},
+			{
+				"name": "capacitance",
+				"display_name": "Junction Capacitance (Cj)",
+				"type": "quantity",
+				"unit": "pF",
+				"use_si": true,
+				"digits": 2
+			},
+			{
+				"name": "package",
 				"display_name": "Package",
-				"type" : "enum",
-				"items" : [
-					"SOD-523-2"
+				"type": "enum",
+				"items": [
+					"SOD-523-2",
+					"DO-214AC",
+					"SOD-323",
+					"SOT-23"
 				]
 			},
 			{
 				"name": "price",
-				"display_name" : "Price",
-				"type" : "quantity",
-				"unit" : "€",
-				"use_si" : false,
-				"digits" : 4
+				"display_name": "Price",
+				"type": "quantity",
+				"unit": "€",
+				"use_si": false,
+				"digits": 4
 			}
 		]
 	},
-	"diodes_switching" : {
-		"display_name": "Diodes - Small signal",
-		"columns" : [
+	"diodes_switching": {
+		"display_name": "Diodes - Small Signal",
+		"columns": [
 			{
-				"name": "forward_voltage_drop",
-				"display_name" : "Forward Voltage Drop",
-				"type" : "quantity",
-				"unit" : "V",
-				"use_si" : true,
-				"digits" : 2
+				"name": "v_f",
+				"display_name": "Forward Voltage Drop (Vf)",
+				"type": "quantity",
+				"unit": "V",
+				"use_si": true,
+				"digits": 2
 			},
 			{
-				"name": "peak_inverse_voltage",
-				"display_name" : "Peak Inverse Voltage",
-				"type" : "quantity",
-				"unit" : "V",
-				"use_si" : true,
-				"digits" : 2
+				"name": "v_r",
+				"display_name": "Peak Reverse Voltage (Vr)",
+				"type": "quantity",
+				"unit": "V",
+				"use_si": true,
+				"digits": 2
 			},
 			{
-				"name": "max_forward_current",
-				"display_name" : "Max Forward Current",
-				"type" : "quantity",
-				"unit" : "A",
-				"use_si" : true,
-				"digits" : 2
+				"name": "i_f",
+				"display_name": "Maximum Forward Current (If)",
+				"type": "quantity",
+				"unit": "A",
+				"use_si": true,
+				"digits": 2
 			},
 			{
-				"name" : "package",
+				"name": "trr",
+				"display_name": "Reverse Recovery Time (trr)",
+				"type": "quantity",
+				"unit": "ns",
+				"use_si": true,
+				"digits": 2
+			},
+			{
+				"name": "capacitance",
+				"display_name": "Junction Capacitance (Cj)",
+				"type": "quantity",
+				"unit": "pF",
+				"use_si": true,
+				"digits": 2
+			},
+			{
+				"name": "package",
 				"display_name": "Package",
-				"type" : "enum",
-				"items" : [
-					"SOD-323F-2"
+				"type": "enum",
+				"items": [
+					"SOD-323F-2",
+					"SOT-23",
+					"SOD-123",
+					"DO-35"
 				]
 			},
 			{
 				"name": "price",
-				"display_name" : "Price",
-				"type" : "quantity",
-				"unit" : "€",
-				"use_si" : false,
-				"digits" : 4
+				"display_name": "Price",
+				"type": "quantity",
+				"unit": "€",
+				"use_si": false,
+				"digits": 4
 			}
 		]
 	},
-	"diodes_zener" : {
+	"diodes_zener": {
 		"display_name": "Diodes - Zener",
-		"columns" : [
+		"columns": [
 			{
-				"name": "zener_voltage",
-				"display_name" : "Zener Voltage",
-				"type" : "quantity",
-				"unit" : "V",
-				"use_si" : true,
-				"digits" : 2
+				"name": "v_z",
+				"display_name": "Zener Voltage (Vz)",
+				"type": "quantity",
+				"unit": "V",
+				"use_si": true,
+				"digits": 2
 			},
 			{
-				"name": "voltage_tolerance",
-				"display_name" : "Voltage Tolerance",
-				"type" : "quantity",
-				"unit" : "%",
-				"use_si" : true,
-				"digits" : 0
+				"name": "tolerance",
+				"display_name": "Voltage Tolerance",
+				"type": "quantity",
+				"unit": "%",
+				"use_si": false,
+				"digits": 0
 			},
 			{
-				"name": "power_rating",
-				"display_name" : "Power Rating",
-				"type" : "quantity",
-				"unit" : "W",
-				"use_si" : true,
-				"digits" : 2
+				"name": "p_max",
+				"display_name": "Power Dissipation (Pd)",
+				"type": "quantity",
+				"unit": "W",
+				"use_si": true,
+				"digits": 2
 			},
 			{
-				"name" : "package",
+				"name": "v_r",
+				"display_name": "Peak Reverse Voltage (Vr)",
+				"type": "quantity",
+				"unit": "V",
+				"use_si": true,
+				"digits": 2
+			},
+			{
+				"name": "i_f",
+				"display_name": "Maximum Forward Current (If)",
+				"type": "quantity",
+				"unit": "A",
+				"use_si": true,
+				"digits": 2
+			},
+			{
+				"name": "trr",
+				"display_name": "Reverse Recovery Time (trr)",
+				"type": "quantity",
+				"unit": "ns",
+				"use_si": true,
+				"digits": 2
+			},
+			{
+				"name": "package",
 				"display_name": "Package",
-				"type" : "enum",
-				"items" : [
-					"SOD-123-2 "
+				"type": "enum",
+				"items": [
+					"SOD-123-2",
+					"DO-35",
+					"SOT-23"
 				]
 			},
 			{
 				"name": "price",
-				"display_name" : "Price",
-				"type" : "quantity",
-				"unit" : "€",
-				"use_si" : false,
-				"digits" : 4
+				"display_name": "Price",
+				"type": "quantity",
+				"unit": "€",
+				"use_si": false,
+				"digits": 4
 			}
 		]
 	},
