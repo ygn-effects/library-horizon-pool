@@ -823,47 +823,63 @@
 			}
 		]
 	},
-	"pptc" : {
-		"display_name": "PPTC",
-		"columns" : [
+	"pptc": {
+		"display_name": "PPTC Fuses",
+		"columns": [
 			{
-				"name": "voltage_rating",
-				"display_name": "Voltage Rating",
+				"name": "v_r",
+				"display_name": "Voltage Rating (Vr)",
 				"type": "quantity",
 				"unit": "V",
-				"use_si": false,
+				"use_si": true,
 				"digits": 2
 			},
 			{
-				"name": "current_rating",
-				"display_name": "Current Rating",
+				"name": "i_max",
+				"display_name": "Maximum Current Rating (Imax)",
+				"type": "quantity",
+				"unit": "A",
+				"use_si": true,
+				"digits": 2
+			},
+			{
+				"name": "i_hold",
+				"display_name": "Holding Current (Ihold)",
 				"type": "quantity",
 				"unit": "A",
 				"use_si": false,
 				"digits": 2
 			},
 			{
-				"name": "holding_current",
-				"display_name": "Holding Current",
+				"name": "i_trip",
+				"display_name": "Tripping Current (Itrip)",
 				"type": "quantity",
 				"unit": "A",
-				"use_si": false,
+				"use_si": true,
 				"digits": 2
 			},
 			{
-				"name": "tripping_current",
-				"display_name": "Tripping Current",
-				"type": "quantity",
-				"unit": "A",
-				"use_si": false,
-				"digits": 2
-			},
-			{
-				"name": "time_to_trip",
-				"display_name": "Time to Trip",
+				"name": "t_trip",
+				"display_name": "Time to Trip (ttrip)",
 				"type": "quantity",
 				"unit": "s",
-				"use_si": false,
+				"use_si": true,
+				"digits": 2
+			},
+			{
+				"name": "r_typ",
+				"display_name": "Resistance (Typical, Rtyp)",
+				"type": "quantity",
+				"unit": "Ω",
+				"use_si": true,
+				"digits": 4
+			},
+			{
+				"name": "i_f_max",
+				"display_name": "Maximum Fault Current (Ifmax)",
+				"type": "quantity",
+				"unit": "A",
+				"use_si": true,
 				"digits": 2
 			},
 			{
@@ -871,7 +887,8 @@
 				"display_name": "Package",
 				"type": "enum",
 				"items": [
-					"1206"
+					"1206",
+					"1210"
 				]
 			},
 			{
@@ -884,56 +901,112 @@
 			}
 		]
 	},
-	"relays" : {
+	"relays": {
 		"display_name": "Relays",
-		"columns" : [
+		"columns": [
 			{
-				"name" : "contact_form",
+				"name": "contact_form",
 				"display_name": "Contact Form",
-				"type" : "enum",
-				"items" : [
+				"type": "enum",
+				"items": [
+					"SPST",
+					"SPDT",
+					"DPST",
 					"DPDT"
 				]
 			},
 			{
+				"name": "contact_material",
+				"display_name": "Contact Material",
+				"type": "enum",
+				"items": [
+					"Silver Alloy",
+					"Gold Plated",
+					"Silver Nickel",
+					"Other"
+				]
+			},
+			{
 				"name": "current_rating",
-				"display_name" : "Current Rating",
-				"type" : "quantity",
-				"unit" : "A",
-				"use_si" : true,
-				"digits" : 2
+				"display_name": "Contact Current Rating",
+				"type": "quantity",
+				"unit": "A",
+				"use_si": true,
+				"digits": 2
 			},
 			{
 				"name": "coil_voltage",
-				"display_name" : "Coil Voltage",
-				"type" : "quantity",
-				"unit" : "V",
-				"use_si" : true,
-				"digits" : 2
+				"display_name": "Coil Voltage",
+				"type": "quantity",
+				"unit": "V",
+				"use_si": true,
+				"digits": 2
 			},
 			{
 				"name": "coil_resistance",
-				"display_name" : "Coil Resistance",
-				"type" : "quantity",
-				"unit" : "Ω",
-				"use_si" : true,
-				"digits" : 2
+				"display_name": "Coil Resistance",
+				"type": "quantity",
+				"unit": "Ω",
+				"use_si": true,
+				"digits": 2
 			},
 			{
 				"name": "coil_current",
-				"display_name" : "Coil Current",
-				"type" : "quantity",
-				"unit" : "A",
-				"use_si" : true,
-				"digits" : 2
+				"display_name": "Coil Current",
+				"type": "quantity",
+				"unit": "A",
+				"use_si": true,
+				"digits": 2
+			},
+			{
+				"name": "operate_time",
+				"display_name": "Operate Time",
+				"type": "quantity",
+				"unit": "s",
+				"use_si": true,
+				"digits": 2
+			},
+			{
+				"name": "release_time",
+				"display_name": "Release Time",
+				"type": "quantity",
+				"unit": "s",
+				"use_si": true,
+				"digits": 2
+			},
+			{
+				"name": "insulation_resistance",
+				"display_name": "Insulation Resistance",
+				"type": "quantity",
+				"unit": "Ω",
+				"use_si": true,
+				"digits": 2
+			},
+			{
+				"name": "dielectric_strength",
+				"display_name": "Dielectric Strength",
+				"type": "quantity",
+				"unit": "V",
+				"use_si": true,
+				"digits": 2
+			},
+			{
+				"name": "package",
+				"display_name": "Package",
+				"type": "enum",
+				"items": [
+					"Through Hole",
+					"SMD",
+					"Panel Mount"
+				]
 			},
 			{
 				"name": "price",
-				"display_name" : "Price",
-				"type" : "quantity",
-				"unit" : "€",
-				"use_si" : false,
-				"digits" : 4
+				"display_name": "Price",
+				"type": "quantity",
+				"unit": "€",
+				"use_si": false,
+				"digits": 4
 			}
 		]
 	},
