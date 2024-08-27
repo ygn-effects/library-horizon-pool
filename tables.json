@@ -653,21 +653,57 @@
 			}
 		]
 	},
-	"transistors" : {
-		"display_name": "Transistors",
-		"columns" : [
+	"transistors_bjt" : {
+		"display_name": "Transistors - BJT",
+		"columns": [
 			{
-				"name" : "type",
+				"name": "type",
 				"display_name": "Type",
-				"type" : "enum",
-				"items" : [
-					"PNP",
+				"type": "enum",
+				"items": [
 					"NPN",
-					"JFET P-Channel",
-					"JFET N-Channel",
-					"MOSFET N-Channel",
-					"MOSFET P-Channel"
+					"PNP"
 				]
+			},
+			{
+				"name": "vceo",
+				"display_name": "Collector-Emitter Voltage (Vceo)",
+				"type": "quantity",
+				"unit": "V",
+				"use_si": true,
+				"digits": 2
+			},
+			{
+				"name": "ic",
+				"display_name": "Continuous Collector Current (Ic)",
+				"type": "quantity",
+				"unit": "A",
+				"use_si": true,
+				"digits": 2
+			},
+			{
+				"name": "hfe",
+				"display_name": "DC Current Gain (hFE)",
+				"type": "quantity",
+				"unit": "",
+				"use_si": false,
+				"digits": 0
+			},
+			{
+				"name": "vce_sat",
+				"display_name": "Collector-Emitter Saturation Voltage (Vce(sat))",
+				"type": "quantity",
+				"unit": "V",
+				"use_si": true,
+				"digits": 2
+			},
+			{
+				"name": "pmax",
+				"display_name": "Power Dissipation (Pd)",
+				"type": "quantity",
+				"unit": "W",
+				"use_si": true,
+				"digits": 2
 			},
 			{
 				"name" : "package",
@@ -685,6 +721,155 @@
 				"unit" : "€",
 				"use_si" : false,
 				"digits" : 4
+			}
+		]
+	},
+	"transistors_jfet" : {
+		"display_name": "Transistors - JFET",
+		"columns": [
+			{
+				"name": "type",
+				"display_name": "Type",
+				"type": "enum",
+				"items": [
+					"JFET N-Channel",
+					"JFET P-Channel"
+				]
+			},
+			{
+				"name": "vds",
+				"display_name": "Drain-Source Breakdown Voltage (Vds)",
+				"type": "quantity",
+				"unit": "V",
+				"use_si": true,
+				"digits": 2
+			},
+			{
+				"name": "id",
+				"display_name": "Continuous Drain Current (Id)",
+				"type": "quantity",
+				"unit": "A",
+				"use_si": true,
+				"digits": 2
+			},
+			{
+				"name": "vgs_off",
+				"display_name": "Gate-Source Cutoff Voltage (Vgs(off))",
+				"type": "quantity",
+				"unit": "V",
+				"use_si": true,
+				"digits": 2
+			},
+			{
+				"name": "rds_on",
+				"display_name": "Drain-Source On-State Resistance (Rds(on))",
+				"type": "quantity",
+				"unit": "Ω",
+				"use_si": true,
+				"digits": 4
+			},
+			{
+				"name": "pmax",
+				"display_name": "Power Dissipation (Pd)",
+				"type": "quantity",
+				"unit": "W",
+				"use_si": true,
+				"digits": 2
+			},
+			{
+				"name": "yfs",
+				"display_name": "Forward Transconductance (Yfs)",
+				"type": "quantity",
+				"unit": "mS",
+				"use_si": true,
+				"digits": 2
+			},
+			{
+				"name" : "package",
+				"display_name": "Package",
+				"type" : "enum",
+				"items" : [
+					"SOT-23-3",
+					"SOT-323-3"
+				]
+			},
+			{
+				"name": "price",
+				"display_name" : "Price",
+				"type" : "quantity",
+				"unit" : "€",
+				"use_si" : false,
+				"digits" : 4
+			}
+		]
+	},
+	"transistors_mosfets": {
+		"display_name": "Transistors - MOSFET",
+		"columns": [
+			{
+				"name": "type",
+				"display_name": "Type",
+				"type": "enum",
+				"items": [
+					"MOSFET N-Channel",
+					"MOSFET P-Channel"
+				]
+			},
+			{
+				"name": "vds",
+				"display_name": "Drain-Source Breakdown Voltage (Vds)",
+				"type": "quantity",
+				"unit": "V",
+				"use_si": true,
+				"digits": 2
+			},
+			{
+				"name": "id",
+				"display_name": "Continuous Drain Current (Id)",
+				"type": "quantity",
+				"unit": "A",
+				"use_si": true,
+				"digits": 2
+			},
+			{
+				"name": "rds_on",
+				"display_name": "Drain-Source On-State Resistance (Rds(on))",
+				"type": "quantity",
+				"unit": "Ω",
+				"use_si": true,
+				"digits": 4
+			},
+			{
+				"name": "vgs_th",
+				"display_name": "Gate-Source Threshold Voltage (Vgs(th))",
+				"type": "quantity",
+				"unit": "V",
+				"use_si": true,
+				"digits": 2
+			},
+			{
+				"name": "vgs_max",
+				"display_name": "Maximum Gate-Source Voltage (Vgs(max))",
+				"type": "quantity",
+				"unit": "V",
+				"use_si": true,
+				"digits": 2
+			},
+			{
+				"name": "package",
+				"display_name": "Package",
+				"type": "enum",
+				"items": [
+					"SOT-23-3"
+				]
+			},
+			{
+				"name": "price",
+				"display_name": "Price",
+				"type": "quantity",
+				"unit": "€",
+				"use_si": false,
+				"digits": 4
 			}
 		]
 	},
