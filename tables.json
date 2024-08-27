@@ -721,34 +721,105 @@
 			}
 		]
 	},
-	"potentiometers" : {
+	"potentiometers": {
 		"display_name": "Potentiometers",
-		"columns" : [
+		"columns": [
 			{
 				"name": "value",
-				"display_name" : "Value",
-				"type" : "quantity",
-				"unit" : "Ω",
-				"use_si" : true,
-				"digits" : 2
+				"display_name": "Resistance Value",
+				"type": "quantity",
+				"unit": "Ω",
+				"use_si": true,
+				"digits": 2
 			},
 			{
-				"name" : "type",
-				"display_name": "Type",
-				"type" : "enum",
-				"items" : [
+				"name": "tolerance",
+				"display_name": "Tolerance",
+				"type": "quantity",
+				"unit": "%",
+				"use_si": false,
+				"digits": 2
+			},
+			{
+				"name": "type",
+				"display_name": "Taper Type",
+				"type": "enum",
+				"items": [
 					"Linear",
-					"Logarithm",
-					"Anti-Logarithm"
+					"Logarithmic",
+					"Anti-Logarithmic",
+					"Custom"
+				]
+			},
+			{
+				"name": "p_max",
+				"display_name": "Power Rating",
+				"type": "quantity",
+				"unit": "W",
+				"use_si": true,
+				"digits": 2
+			},
+			{
+				"name": "mechanical_rotation",
+				"display_name": "Mechanical Rotation",
+				"type": "quantity",
+				"unit": "°",
+				"use_si": false,
+				"digits": 0
+			},
+			{
+				"name": "temperature_coefficient",
+				"display_name": "Temperature Coefficient",
+				"type": "quantity",
+				"unit": "ppm/°C",
+				"use_si": true,
+				"digits": 2
+			},
+			{
+				"name": "shaft_diameter",
+				"display_name": "Shaft Diameter",
+				"type": "quantity",
+				"unit": "mm",
+				"use_si": true,
+				"digits": 2
+			},
+			{
+				"name": "mounting_type",
+				"display_name": "Mounting Type",
+				"type": "enum",
+				"items": [
+					"Through Hole",
+					"SMD",
+					"Panel Mount"
+				]
+			},
+			{
+				"name": "shaft_length",
+				"display_name": "Shaft Length",
+				"type": "quantity",
+				"unit": "mm",
+				"use_si": true,
+				"digits": 2
+			},
+			{
+				"name": "package",
+				"display_name": "Package",
+				"type": "enum",
+				"items": [
+					"9mm",
+					"16mm",
+					"24mm",
+					"Slide",
+					"Trimmer"
 				]
 			},
 			{
 				"name": "price",
-				"display_name" : "Price",
-				"type" : "quantity",
-				"unit" : "€",
-				"use_si" : false,
-				"digits" : 4
+				"display_name": "Price",
+				"type": "quantity",
+				"unit": "€",
+				"use_si": false,
+				"digits": 4
 			}
 		]
 	},
