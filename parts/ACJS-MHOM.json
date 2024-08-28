@@ -47,11 +47,14 @@
         }
     },
     "parametric": {
+        "contact_material": "Copper",
+        "current_rating": "10",
         "mounting_angle": "Right Angle",
         "mounting_style": "PCB",
         "positions": "Stereo Switched",
         "price": "1.71",
-        "table": "connectors_jacks"
+        "table": "connectors_jacks",
+        "voltage_rating": "34"
     },
     "tags": [],
     "type": "part",

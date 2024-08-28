@@ -31,11 +31,13 @@
         }
     },
     "parametric": {
+        "p_max": "0.1",
         "package": "0603",
-        "pmax": "0.1",
-        "price": "0.0105",
-        "table": "resistors",
+        "price": "0.009",
+        "table": "resistors_film",
+        "tcr": "100",
         "tolerance": "1",
+        "v_max": "75",
         "value": "220000"
     },
     "tags": [],

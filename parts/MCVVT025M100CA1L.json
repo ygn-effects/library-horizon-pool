@@ -31,11 +31,13 @@
         }
     },
     "parametric": {
-        "package": "4x5.4mm",
-        "price": "0.0587",
-        "table": "capacitors",
+        "esr": "",
+        "lifetime": "2000",
+        "package": "SMD",
+        "price": "0.0596",
+        "size": "4x5.4mm",
+        "table": "capacitors_electrolytic",
         "tolerance": "20",
-        "type": "Electrolytic",
         "value": "1e-05",
         "wvdc": "25"
     },

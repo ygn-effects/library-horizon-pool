@@ -57,10 +57,17 @@
     "parametric": {
         "coil_current": "0.0211",
         "coil_resistance": "237",
+        "coil_type": "Non-Latching",
         "coil_voltage": "5",
         "contact_form": "DPDT",
+        "contact_material": "Silver Alloy",
         "current_rating": "1",
-        "price": "0",
+        "dielectric_strength": "1500",
+        "insulation_resistance": "1e+09",
+        "operate_time": "0.003",
+        "package": "SMD",
+        "price": "3.05",
+        "release_time": "0.003",
         "table": "relays"
     },
     "tags": [],

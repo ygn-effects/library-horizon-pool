@@ -31,12 +31,15 @@
         }
     },
     "parametric": {
-        "package": "SOD-123-2 ",
-        "power_rating": "0.5",
+        "i_f": "",
+        "p_max": "0.5",
+        "package": "SOD-123-2",
         "price": "0.038",
         "table": "diodes_zener",
-        "voltage_tolerance": "5",
-        "zener_voltage": "11"
+        "tolerance": "5",
+        "trr": "",
+        "v_r": "",
+        "v_z": "11"
     },
     "tags": [],
     "type": "part",

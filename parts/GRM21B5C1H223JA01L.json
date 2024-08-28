@@ -31,11 +31,11 @@
         }
     },
     "parametric": {
+        "dielectric": "C0G/NP0",
         "package": "0805",
-        "price": "0.102",
-        "table": "capacitors",
+        "price": "0.101",
+        "table": "capacitors_mlcc",
         "tolerance": "5",
-        "type": "C0G/NP0",
         "value": "2.2e-08",
         "wvdc": "50"
     },

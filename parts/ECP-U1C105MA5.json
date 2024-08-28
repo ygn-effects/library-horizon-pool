@@ -9,7 +9,7 @@
     ],
     "description": [
         false,
-        "CAPACITOR FILM 1u 1210 16V ±20%"
+        "CAPACITOR FILM 1U 1210 16V ±20%"
     ],
     "entity": "ca83a84f-6183-4088-84b6-5d79b2a119d4",
     "inherit_model": false,
@@ -31,11 +31,12 @@
         }
     },
     "parametric": {
-        "package": "G2",
-        "price": "0.499",
-        "table": "capacitors",
+        "dielectric": "Polyester (PET)",
+        "package": "SMD",
+        "price": "0.718",
+        "size": "G2",
+        "table": "capacitors_films",
         "tolerance": "20",
-        "type": "SL",
         "value": "1e-06",
         "wvdc": "16"
     },

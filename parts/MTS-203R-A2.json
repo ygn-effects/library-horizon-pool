@@ -48,8 +48,12 @@
     },
     "parametric": {
         "contact_form": "DPDT",
+        "contact_material": "",
         "contact_type": "ON-OFF-ON",
         "current_rating": "3",
+        "mechanical_life": "50000",
+        "mounting_angle": "Straight",
+        "mounting_type": "Through Hole",
         "price": "3.5",
         "switch_type": "Toggle",
         "table": "switches",

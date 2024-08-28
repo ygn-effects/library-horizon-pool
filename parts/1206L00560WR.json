@@ -31,14 +31,16 @@
         }
     },
     "parametric": {
-        "current_rating": "1",
-        "holding_current": "0.05",
+        "i_f_max": "10",
+        "i_hold": "0.05",
+        "i_max": "10",
+        "i_trip": "0.15",
         "package": "1206",
-        "price": "0.321",
-        "table": "PPTC",
-        "time_to_trip": "1.5",
-        "tripping_current": "0.15",
-        "voltage_rating": "60"
+        "price": "0.326",
+        "r_typ": "3.6",
+        "t_trip": "1.5",
+        "table": "pptc",
+        "v_r": "60"
     },
     "tags": [],
     "type": "part",
