@@ -25,7 +25,8 @@
 				"type": "quantity",
 				"unit": "Ω",
 				"use_si": true,
-				"digits": 4
+				"digits": 4,
+				"required": false
 			},
 			{
 				"name": "lifetime",
@@ -257,8 +258,10 @@
 					"Gold",
 					"Tin",
 					"Nickel",
+					"Copper",
 					"Other"
-				]
+				],
+				"required": false
 			},
 			{
 				"name": "current_rating",
@@ -329,8 +332,10 @@
 					"Gold",
 					"Nickel",
 					"Silver",
+					"Copper",
 					"Other"
-				]
+				],
+				"required": false
 			},
 			{
 				"name": "current_rating",
@@ -453,9 +458,10 @@
 				"name": "trr",
 				"display_name": "Reverse Recovery Time (trr)",
 				"type": "quantity",
-				"unit": "ns",
+				"unit": "s",
 				"use_si": true,
-				"digits": 2
+				"digits": 2,
+				"required": false
 			},
 			{
 				"name": "p_max",
@@ -469,7 +475,7 @@
 				"name": "capacitance",
 				"display_name": "Junction Capacitance (Cj)",
 				"type": "quantity",
-				"unit": "pF",
+				"unit": "F",
 				"use_si": true,
 				"digits": 2
 			},
@@ -525,7 +531,7 @@
 				"name": "trr",
 				"display_name": "Reverse Recovery Time (trr)",
 				"type": "quantity",
-				"unit": "ns",
+				"unit": "s",
 				"use_si": true,
 				"digits": 2
 			},
@@ -533,7 +539,7 @@
 				"name": "capacitance",
 				"display_name": "Junction Capacitance (Cj)",
 				"type": "quantity",
-				"unit": "pF",
+				"unit": "F",
 				"use_si": true,
 				"digits": 2
 			},
@@ -591,7 +597,8 @@
 				"type": "quantity",
 				"unit": "V",
 				"use_si": true,
-				"digits": 2
+				"digits": 2,
+				"required": false
 			},
 			{
 				"name": "i_f",
@@ -599,15 +606,17 @@
 				"type": "quantity",
 				"unit": "A",
 				"use_si": true,
-				"digits": 2
+				"digits": 2,
+				"required": false
 			},
 			{
 				"name": "trr",
 				"display_name": "Reverse Recovery Time (trr)",
 				"type": "quantity",
-				"unit": "ns",
+				"unit": "s",
 				"use_si": true,
-				"digits": 2
+				"digits": 2,
+				"required": false
 			},
 			{
 				"name": "package",
@@ -674,7 +683,8 @@
 				"type": "quantity",
 				"unit": "%",
 				"use_si": false,
-				"digits": 0
+				"digits": 0,
+				"required": false
 			},
 			{
 				"name": "v_iso",
@@ -682,7 +692,8 @@
 				"type": "quantity",
 				"unit": "V",
 				"use_si": true,
-				"digits": 2
+				"digits": 2,
+				"required": false
 			},
 			{
 				"name": "t_r",
@@ -765,7 +776,8 @@
 				"type": "quantity",
 				"unit": "°",
 				"use_si": false,
-				"digits": 0
+				"digits": 0,
+				"required": false
 			},
 			{
 				"name": "temperature_coefficient",
@@ -773,15 +785,8 @@
 				"type": "quantity",
 				"unit": "ppm/°C",
 				"use_si": true,
-				"digits": 2
-			},
-			{
-				"name": "shaft_diameter",
-				"display_name": "Shaft Diameter",
-				"type": "quantity",
-				"unit": "mm",
-				"use_si": true,
-				"digits": 2
+				"digits": 2,
+				"required": false
 			},
 			{
 				"name": "mounting_type",
@@ -806,6 +811,14 @@
 			{
 				"name": "shaft_length",
 				"display_name": "Shaft Length",
+				"type": "quantity",
+				"unit": "mm",
+				"use_si": true,
+				"digits": 2
+			},
+			{
+				"name": "shaft_diameter",
+				"display_name": "Shaft Diameter",
 				"type": "quantity",
 				"unit": "mm",
 				"use_si": true,
@@ -890,7 +903,8 @@
 				"type": "quantity",
 				"unit": "A",
 				"use_si": true,
-				"digits": 2
+				"digits": 2,
+				"required": false
 			},
 			{
 				"name": "package",
@@ -969,12 +983,22 @@
 				"digits": 2
 			},
 			{
+				"name": "coil_type",
+				"display_name": "Coil Type",
+				"type": "enum",
+				"items": [
+					"Latching",
+					"Non-Latching"
+				]
+			},
+			{
 				"name": "operate_time",
 				"display_name": "Operate Time",
 				"type": "quantity",
 				"unit": "s",
 				"use_si": true,
-				"digits": 2
+				"digits": 2,
+				"required": false
 			},
 			{
 				"name": "release_time",
@@ -982,7 +1006,8 @@
 				"type": "quantity",
 				"unit": "s",
 				"use_si": true,
-				"digits": 2
+				"digits": 2,
+				"required": false
 			},
 			{
 				"name": "insulation_resistance",
@@ -990,7 +1015,8 @@
 				"type": "quantity",
 				"unit": "Ω",
 				"use_si": true,
-				"digits": 2
+				"digits": 2,
+				"required": false
 			},
 			{
 				"name": "dielectric_strength",
@@ -998,7 +1024,8 @@
 				"type": "quantity",
 				"unit": "V",
 				"use_si": true,
-				"digits": 2
+				"digits": 2,
+				"required": false
 			},
 			{
 				"name": "package",
@@ -1146,7 +1173,8 @@
 				"type": "quantity",
 				"unit": "Cycles",
 				"use_si": false,
-				"digits": 0
+				"digits": 0,
+				"required": false
 			},
 			{
 				"name": "contact_material",
@@ -1156,8 +1184,10 @@
 					"Silver",
 					"Gold",
 					"Silver Alloy",
+					"Copper Alloy",
 					"Other"
-				]
+				],
+				"required": false
 			},
 			{
 				"name": "mounting_type",
@@ -1316,7 +1346,7 @@
 				"name": "yfs",
 				"display_name": "Forward Transconductance (Yfs)",
 				"type": "quantity",
-				"unit": "mS",
+				"unit": "S",
 				"use_si": true,
 				"digits": 2
 			},
