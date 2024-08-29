@@ -1519,6 +1519,76 @@
 			}
 		]
 	},
+	"voltage_regulators_linear": {
+		"display_name": "Voltage Regulators - Linear",
+		"columns": [
+			{
+				"name": "v_input",
+				"display_name": "Input Voltage (Vin)",
+				"type": "quantity",
+				"unit": "V",
+				"use_si": true,
+				"digits": 2
+			},
+			{
+				"name": "v_output",
+				"display_name": "Output Voltage (Vout)",
+				"type": "quantity",
+				"unit": "V",
+				"use_si": true,
+				"digits": 2
+			},
+			{
+				"name": "i_output",
+				"display_name": "Output Current (Iout)",
+				"type": "quantity",
+				"unit": "A",
+				"use_si": true,
+				"digits": 2
+			},
+			{
+				"name": "dropout_voltage",
+				"display_name": "Dropout Voltage",
+				"type": "quantity",
+				"unit": "V",
+				"use_si": true,
+				"digits": 2
+			},
+			{
+				"name": "quiescent_current",
+				"display_name": "Quiescent Current (Iq)",
+				"type": "quantity",
+				"unit": "A",
+				"use_si": true,
+				"digits": 2
+			},
+			{
+				"name": "psrr",
+				"display_name": "Power Supply Rejection Ratio (PSRR)",
+				"type": "quantity",
+				"unit": "dB",
+				"use_si": true,
+				"digits": 2,
+				"required": false
+			},
+			{
+				"name": "package",
+				"display_name": "Package",
+				"type": "enum",
+				"items": [
+					"SOT-23-3"
+				]
+			},
+			{
+				"name": "price",
+				"display_name": "Price",
+				"type": "quantity",
+				"unit": "€",
+				"use_si": false,
+				"digits": 4
+			}
+		]
+	},
 	"general" : {
 		"display_name": "General",
 		"columns" : [
