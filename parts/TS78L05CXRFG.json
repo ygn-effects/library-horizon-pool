@@ -18,7 +18,7 @@
         false,
         "Taiwan Semiconductor"
     ],
-    "model": "00874cbf-8ae6-436b-b223-284098efaa12",
+    "model": "001b62c2-ca1d-4d02-b95c-90ebb2b83343",
     "package": "c60bd8ef-44c5-4875-b03c-b910f9ef79b9",
     "pad_map": {
         "7a79a4ab-fdb6-4af7-8287-712559f81605": {
@@ -35,8 +35,15 @@
         }
     },
     "parametric": {
-        "price": "0.278",
-        "table": "general"
+        "dropout_voltage": "1.7",
+        "i_output": "0.1",
+        "package": "SOT-23-3",
+        "price": "0.261",
+        "psrr": "49",
+        "quiescent_current": "0.003",
+        "table": "voltage_regulators_linear",
+        "v_input": "35",
+        "v_output": "5"
     },
     "tags": [],
     "type": "part",

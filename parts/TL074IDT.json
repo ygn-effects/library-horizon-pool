@@ -79,8 +79,16 @@
         }
     },
     "parametric": {
-        "price": "0.436",
-        "table": "general"
+        "gain_bandwidth": "3",
+        "i_bias": "2e-11",
+        "input_impedance": "1e+07",
+        "noise_density": "",
+        "package": "SOIC-14",
+        "price": "0.364",
+        "slew_rate": "13",
+        "table": "opamps_jfet",
+        "v_offset": "0.003",
+        "v_supply": "36"
     },
     "tags": [],
     "type": "part",
