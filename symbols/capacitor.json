@@ -81,7 +81,7 @@
     "polygons": {},
     "text_placements": {
         "0m": {
-            "2a3000e6-0c81-4cf5-9688-0e6617c0ac61": {
+            "79aa0b92-cfb0-49d8-9d3a-6f759ee41658": {
                 "angle": 0,
                 "mirror": false,
                 "shift": [
@@ -89,17 +89,17 @@
                     -2500000
                 ]
             },
-            "fad1392e-1de8-4b3d-9b67-f839bd199340": {
+            "c7f4aab5-81ab-4e30-bf37-2e90b2d478cc": {
                 "angle": 0,
                 "mirror": false,
                 "shift": [
                     2500000,
-                    2500000
+                    1750000
                 ]
             }
         },
         "0n": {
-            "2a3000e6-0c81-4cf5-9688-0e6617c0ac61": {
+            "79aa0b92-cfb0-49d8-9d3a-6f759ee41658": {
                 "angle": 0,
                 "mirror": false,
                 "shift": [
@@ -107,157 +107,157 @@
                     -2500000
                 ]
             },
-            "fad1392e-1de8-4b3d-9b67-f839bd199340": {
+            "c7f4aab5-81ab-4e30-bf37-2e90b2d478cc": {
                 "angle": 0,
                 "mirror": false,
                 "shift": [
                     2500000,
-                    2500000
+                    1750000
                 ]
             }
         },
         "180m": {
-            "2a3000e6-0c81-4cf5-9688-0e6617c0ac61": {
-                "angle": 32768,
-                "mirror": true,
-                "shift": [
-                    2500000,
-                    2500000
-                ]
-            },
-            "fad1392e-1de8-4b3d-9b67-f839bd199340": {
+            "79aa0b92-cfb0-49d8-9d3a-6f759ee41658": {
                 "angle": 0,
                 "mirror": false,
                 "shift": [
                     2500000,
                     -2500000
+                ]
+            },
+            "c7f4aab5-81ab-4e30-bf37-2e90b2d478cc": {
+                "angle": 0,
+                "mirror": false,
+                "shift": [
+                    2500000,
+                    1750000
                 ]
             }
         },
         "180n": {
-            "2a3000e6-0c81-4cf5-9688-0e6617c0ac61": {
-                "angle": 32768,
-                "mirror": true,
-                "shift": [
-                    2500000,
-                    2500000
-                ]
-            },
-            "fad1392e-1de8-4b3d-9b67-f839bd199340": {
+            "79aa0b92-cfb0-49d8-9d3a-6f759ee41658": {
                 "angle": 0,
                 "mirror": false,
                 "shift": [
                     2500000,
                     -2500000
                 ]
+            },
+            "c7f4aab5-81ab-4e30-bf37-2e90b2d478cc": {
+                "angle": 0,
+                "mirror": false,
+                "shift": [
+                    2500000,
+                    1750000
+                ]
             }
         },
         "270m": {
-            "2a3000e6-0c81-4cf5-9688-0e6617c0ac61": {
-                "angle": 49152,
-                "mirror": true,
-                "shift": [
-                    3750000,
-                    3750000
-                ]
-            },
-            "fad1392e-1de8-4b3d-9b67-f839bd199340": {
+            "79aa0b92-cfb0-49d8-9d3a-6f759ee41658": {
                 "angle": 49152,
                 "mirror": false,
                 "shift": [
                     -3750000,
-                    3750000
+                    1250000
+                ]
+            },
+            "c7f4aab5-81ab-4e30-bf37-2e90b2d478cc": {
+                "angle": 49152,
+                "mirror": false,
+                "shift": [
+                    3625000,
+                    2500000
                 ]
             }
         },
         "270n": {
-            "2a3000e6-0c81-4cf5-9688-0e6617c0ac61": {
-                "angle": 16384,
-                "mirror": false,
-                "shift": [
-                    3750000,
-                    -3750000
-                ]
-            },
-            "fad1392e-1de8-4b3d-9b67-f839bd199340": {
-                "angle": 16384,
+            "79aa0b92-cfb0-49d8-9d3a-6f759ee41658": {
+                "angle": 49152,
                 "mirror": false,
                 "shift": [
                     -3750000,
-                    -3750000
+                    1250000
+                ]
+            },
+            "c7f4aab5-81ab-4e30-bf37-2e90b2d478cc": {
+                "angle": 49152,
+                "mirror": false,
+                "shift": [
+                    3625000,
+                    2500000
                 ]
             }
         },
         "90m": {
-            "2a3000e6-0c81-4cf5-9688-0e6617c0ac61": {
-                "angle": 16384,
-                "mirror": true,
-                "shift": [
-                    -3750000,
-                    -3750000
-                ]
-            },
-            "fad1392e-1de8-4b3d-9b67-f839bd199340": {
-                "angle": 16384,
+            "79aa0b92-cfb0-49d8-9d3a-6f759ee41658": {
+                "angle": 49152,
                 "mirror": false,
                 "shift": [
-                    3750000,
-                    -3750000
+                    -3750000,
+                    1250000
+                ]
+            },
+            "c7f4aab5-81ab-4e30-bf37-2e90b2d478cc": {
+                "angle": 49152,
+                "mirror": false,
+                "shift": [
+                    3625000,
+                    1250000
                 ]
             }
         },
         "90n": {
-            "2a3000e6-0c81-4cf5-9688-0e6617c0ac61": {
+            "79aa0b92-cfb0-49d8-9d3a-6f759ee41658": {
                 "angle": 49152,
                 "mirror": false,
                 "shift": [
                     -3750000,
-                    3750000
+                    1250000
                 ]
             },
-            "fad1392e-1de8-4b3d-9b67-f839bd199340": {
+            "c7f4aab5-81ab-4e30-bf37-2e90b2d478cc": {
                 "angle": 49152,
                 "mirror": false,
                 "shift": [
-                    3750000,
-                    3750000
+                    3625000,
+                    1250000
                 ]
             }
         }
     },
     "texts": {
-        "5b25f70f-b917-463c-935a-e70a4675c5b8": {
+        "79aa0b92-cfb0-49d8-9d3a-6f759ee41658": {
             "font": "simplex",
             "from_smash": false,
             "layer": 0,
             "origin": "center",
             "placement": {
-                "angle": 0,
+                "angle": 49152,
                 "mirror": false,
                 "shift": [
-                    2500000,
+                    -3750000,
                     1250000
                 ]
             },
             "size": 1500000,
-            "text": "$REFDES",
+            "text": "$VALUE",
             "width": 0
         },
-        "a6d95845-14ed-4a99-a6d9-5d0b2d6c7e9b": {
+        "c7f4aab5-81ab-4e30-bf37-2e90b2d478cc": {
             "font": "simplex",
             "from_smash": false,
             "layer": 0,
             "origin": "center",
             "placement": {
-                "angle": 0,
+                "angle": 49152,
                 "mirror": false,
                 "shift": [
-                    2500000,
-                    -2500000
+                    3625000,
+                    2500000
                 ]
             },
             "size": 1500000,
-            "text": "$VALUE",
+            "text": "$REFDES",
             "width": 0
         }
     },
