@@ -1589,6 +1589,102 @@
 			}
 		]
 	},
+	"voltage_regulators_switching": {
+		"display_name": "Voltage Regulators - Switching",
+		"columns": [
+			{
+				"name": "v_input",
+				"display_name": "Input Voltage (Vin)",
+				"type": "quantity",
+				"unit": "V",
+				"use_si": true,
+				"digits": 2
+			},
+			{
+				"name": "v_output",
+				"display_name": "Output Voltage (Vout)",
+				"type": "quantity",
+				"unit": "V",
+				"use_si": true,
+				"digits": 2
+			},
+			{
+				"name": "i_output",
+				"display_name": "Output Current (Iout)",
+				"type": "quantity",
+				"unit": "A",
+				"use_si": true,
+				"digits": 2
+			},
+			{
+				"name": "efficiency",
+				"display_name": "Efficiency",
+				"type": "quantity",
+				"unit": "%",
+				"use_si": false,
+				"digits": 2
+			},
+			{
+				"name": "frequency",
+				"display_name": "Switching Frequency",
+				"type": "quantity",
+				"unit": "Hz",
+				"use_si": true,
+				"digits": 2
+			},
+			{
+				"name": "quiescent_current",
+				"display_name": "Quiescent Current (Iq)",
+				"type": "quantity",
+				"unit": "A",
+				"use_si": true,
+				"digits": 2
+			},
+			{
+				"name": "rds_on",
+				"display_name": "Rds(on)",
+				"type": "quantity",
+				"unit": "Ω",
+				"use_si": true,
+				"digits": 4,
+				"required": false
+			},
+			{
+				"name": "v_drop",
+				"display_name": "Voltage Drop (Vdrop)",
+				"type": "quantity",
+				"unit": "V",
+				"use_si": true,
+				"digits": 2,
+				"required": false
+			},
+			{
+				"name": "psrr",
+				"display_name": "Power Supply Rejection Ratio (PSRR)",
+				"type": "quantity",
+				"unit": "dB",
+				"use_si": true,
+				"digits": 2,
+				"required": false
+			},
+			{
+				"name": "package",
+				"display_name": "Package",
+				"type": "enum",
+				"items": [
+					"SOIC-8"
+				]
+			},
+			{
+				"name": "price",
+				"display_name": "Price",
+				"type": "quantity",
+				"unit": "€",
+				"use_si": false,
+				"digits": 4
+			}
+		]
+	},
 	"general" : {
 		"display_name": "General",
 		"columns" : [
