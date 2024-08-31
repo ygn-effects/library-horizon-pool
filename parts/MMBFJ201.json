@@ -35,10 +35,16 @@
         }
     },
     "parametric": {
+        "id": "1e-08",
         "package": "SOT-23-3",
-        "price": "0.176",
-        "table": "transistors",
-        "type": "JFET N-Channel"
+        "pmax": "0.35",
+        "price": "0.172",
+        "rds_on": "0",
+        "table": "transistors_jfet",
+        "type": "JFET N-Channel",
+        "vds": "20",
+        "vgs_off": "-1.5",
+        "yfs": "0.0005"
     },
     "tags": [],
     "type": "part",

@@ -48,12 +48,16 @@
     },
     "parametric": {
         "contact_form": "DPDT",
+        "contact_material": "Copper Alloy",
         "contact_type": "ON-OFF-ON",
-        "current_rating": "0.3",
-        "price": "0",
+        "current_rating": "0.1",
+        "mechanical_life": "",
+        "mounting_angle": "Straight",
+        "mounting_type": "Through Hole",
+        "price": "0.403",
         "switch_type": "Slide",
         "table": "switches",
-        "voltage_rating": "6"
+        "voltage_rating": "30"
     },
     "tags": [],
     "type": "part",

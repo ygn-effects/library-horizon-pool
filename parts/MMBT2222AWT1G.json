@@ -35,10 +35,15 @@
         }
     },
     "parametric": {
+        "hfe": "375",
+        "ic": "0.6",
         "package": "SOT-323-3",
-        "price": "0.039",
-        "table": "transistors",
-        "type": "NPN"
+        "pmax": "0.15",
+        "price": "0.035",
+        "table": "transistors_bjt",
+        "type": "NPN",
+        "vce_sat": "1",
+        "vceo": "50"
     },
     "tags": [],
     "type": "part",

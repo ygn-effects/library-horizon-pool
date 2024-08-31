@@ -32,8 +32,12 @@
     },
     "parametric": {
         "contact_form": "SPST",
+        "contact_material": "Copper Alloy",
         "contact_type": "ON-OFF",
         "current_rating": "0.025",
+        "mechanical_life": "2000",
+        "mounting_angle": "Straight",
+        "mounting_type": "Through Hole",
         "price": "0.7",
         "switch_type": "DIP",
         "table": "switches",

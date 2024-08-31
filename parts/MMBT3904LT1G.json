@@ -35,10 +35,15 @@
         }
     },
     "parametric": {
+        "hfe": "400",
+        "ic": "0.2",
         "package": "SOT-23-3",
-        "price": "0.047",
-        "table": "transistors",
-        "type": "NPN"
+        "pmax": "0.225",
+        "price": "0.032",
+        "table": "transistors_bjt",
+        "type": "NPN",
+        "vce_sat": "0.3",
+        "vceo": "40"
     },
     "tags": [],
     "type": "part",

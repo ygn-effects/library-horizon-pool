@@ -31,12 +31,15 @@
         }
     },
     "parametric": {
-        "forward_voltage_drop": "0.6",
-        "max_forward_current": "0.3",
+        "capacitance": "1.7e-11",
+        "i_f": "0.3",
+        "p_max": "0.15",
         "package": "SOD-523-2",
-        "peak_inverse_voltage": "30",
         "price": "0.047",
-        "table": "diodes_schottky"
+        "table": "diodes_schottky",
+        "trr": "",
+        "v_f": "0.6",
+        "v_r": "30"
     },
     "tags": [],
     "type": "part",

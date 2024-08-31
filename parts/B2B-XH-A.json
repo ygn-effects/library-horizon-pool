@@ -31,13 +31,16 @@
         }
     },
     "parametric": {
+        "contact_material": "Tin",
+        "current_rating": "250",
         "mounting_angle": "Straight",
-        "mounting_style": "PCB",
+        "mounting_style": "Through Hole",
         "pitch": "2.5",
         "positions": "2",
         "price": "0.109",
         "rows": "1",
-        "table": "connectors_headers"
+        "table": "connectors_headers",
+        "voltage_rating": "3"
     },
     "tags": [],
     "type": "part",

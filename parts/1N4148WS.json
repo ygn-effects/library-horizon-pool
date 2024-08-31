@@ -31,12 +31,14 @@
         }
     },
     "parametric": {
-        "forward_voltage_drop": "1",
-        "max_forward_current": "0.15",
+        "capacitance": "4e-12",
+        "i_f": "0.15",
         "package": "SOD-323F-2",
-        "peak_inverse_voltage": "75",
         "price": "0.052",
-        "table": "diodes_switching"
+        "table": "diodes_switching",
+        "trr": "4e-09",
+        "v_f": "1",
+        "v_r": "75"
     },
     "tags": [],
     "type": "part",
