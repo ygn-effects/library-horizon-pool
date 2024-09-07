@@ -1,6 +1,6 @@
 {
     "arcs": {},
-    "default_model": "00000000-0000-0000-0000-000000000000",
+    "default_model": "22f58383-869e-4b9e-8fcd-ddb0b35c78ac",
     "dimensions": {},
     "grid_settings": {
         "current": {
@@ -264,7 +264,17 @@
         }
     },
     "manufacturer": "",
-    "models": {},
+    "models": {
+        "22f58383-869e-4b9e-8fcd-ddb0b35c78ac": {
+            "filename": "3d_models/th-header-s10b-xh-a-knockoff.step",
+            "pitch": 0,
+            "roll": 16384,
+            "x": 0,
+            "y": -3500000,
+            "yaw": 0,
+            "z": 2900000
+        }
+    },
     "name": "th-connector-s10b-xh-knockoff",
     "pads": {
         "0183e088-f1ee-4d87-ad80-d8f2c1c2a10b": {
@@ -498,7 +508,7 @@
                     ],
                     "arc_reverse": false,
                     "position": [
-                        -11250000,
+                        -13750000,
                         -3500000
                     ],
                     "type": "line"
@@ -510,7 +520,7 @@
                     ],
                     "arc_reverse": false,
                     "position": [
-                        11250000,
+                        13750000,
                         -3500000
                     ],
                     "type": "line"
@@ -522,7 +532,7 @@
                     ],
                     "arc_reverse": false,
                     "position": [
-                        11250000,
+                        13750000,
                         3500000
                     ],
                     "type": "line"
@@ -534,7 +544,7 @@
                     ],
                     "arc_reverse": false,
                     "position": [
-                        -11250000,
+                        -13750000,
                         3500000
                     ],
                     "type": "line"
