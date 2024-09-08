@@ -1,6 +1,6 @@
 {
     "arcs": {},
-    "default_model": "be562a19-7fa4-49e2-b943-f7cd997b40a8",
+    "default_model": "4b140499-a661-4520-82d4-ad83df67f26a",
     "dimensions": {},
     "grid_settings": {
         "current": {
@@ -73,12 +73,12 @@
     },
     "manufacturer": "",
     "models": {
-        "be562a19-7fa4-49e2-b943-f7cd997b40a8": {
-            "filename": "3d_models/P_3362P.STEP",
+        "4b140499-a661-4520-82d4-ad83df67f26a": {
+            "filename": "3d_models/th-trimmer-3362p.step",
             "pitch": 0,
             "roll": 0,
             "x": 0,
-            "y": -50000,
+            "y": -100000,
             "yaw": 32768,
             "z": 0
         }
