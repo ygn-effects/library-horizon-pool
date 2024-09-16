@@ -11,7 +11,7 @@
         false,
         "RESISTOR JUMPER 0R 1/3W 0603"
     ],
-    "entity": "3ce770af-7be0-4f72-b2af-2c8010911aaf",
+    "entity": "7882be10-cccd-412d-9016-4c1afae46213",
     "inherit_model": true,
     "inherit_tags": false,
     "manufacturer": [
@@ -22,12 +22,12 @@
     "package": "84577000-0009-4e10-8205-c219f6f0cd89",
     "pad_map": {
         "289a856d-217c-4fe8-a60c-f093a0b1646a": {
-            "gate": "48af78e5-730e-44eb-977a-cf188e4fcb39",
-            "pin": "dda0ec99-5d70-4fbe-a8db-897542e7554e"
+            "gate": "942bd230-c37e-4517-bd6d-5551f934009c",
+            "pin": "377d3902-98f2-4199-9200-26b947c85117"
         },
         "cb2597f3-2004-489a-8b4b-eb3569ecde61": {
-            "gate": "48af78e5-730e-44eb-977a-cf188e4fcb39",
-            "pin": "6a44037c-65e2-4876-9359-42890048841d"
+            "gate": "942bd230-c37e-4517-bd6d-5551f934009c",
+            "pin": "e5a297ca-9421-4748-9f10-04ba08e22330"
         }
     },
     "parametric": {
@@ -42,9 +42,9 @@
     },
     "tags": [],
     "type": "part",
-    "uuid": "47ffe6b4-7ee0-4e9e-8c28-4cb906b6feb8",
+    "uuid": "4180e0a2-5af4-4be1-b4c2-8404e87f600d",
     "value": [
         false,
-        "0R"
+        "0"
     ]
 }
