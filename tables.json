@@ -718,6 +718,77 @@
 			}
 		]
 	},
+	"opamps_precision": {
+		"display_name": "Opamps - Precision",
+		"columns": [
+			{
+				"name": "input_type",
+				"display_name": "Input Type",
+				"type": "enum",
+				"items": [
+					"Bipolar",
+					"MOSFET",
+					"JFET"
+				]
+			},
+			{
+				"name": "input_offset_voltage",
+				"display_name": "Input Offset Voltage (V_os)",
+				"type": "quantity",
+				"unit": "V",
+				"use_si": true,
+				"digits": 1
+			},
+			{
+				"name": "input_bias_current",
+				"display_name": "Input Bias Current (I_b)",
+				"type": "quantity",
+				"unit": "A",
+				"use_si": true,
+				"digits": 2
+			},
+			{
+				"name": "slew_rate",
+				"display_name": "Slew Rate (SR)",
+				"type": "quantity",
+				"unit": "V/µs",
+				"use_si": true,
+				"digits": 2
+			},
+			{
+				"name": "gain_bandwidth_product",
+				"display_name": "Gain Bandwidth Product (GBP)",
+				"type": "quantity",
+				"unit": "MHz",
+				"use_si": true,
+				"digits": 2
+			},
+			{
+				"name": "v_supply",
+				"display_name": "Supply Voltage (Vcc)",
+				"type": "quantity",
+				"unit": "V",
+				"use_si": true,
+				"digits": 1
+			},
+			{
+				"name": "package",
+				"display_name": "Package",
+				"type": "enum",
+				"items": [
+					"SOIC-8"
+				]
+			},
+			{
+				"name": "price",
+				"display_name": "Price",
+				"type": "quantity",
+				"unit": "€",
+				"use_si": false,
+				"digits": 4
+			}
+		]
+	},
 	"optocouplers": {
 		"display_name": "Optocouplers",
 		"columns": [
