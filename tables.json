@@ -378,7 +378,7 @@
 				"name": "reverse_current",
 				"display_name": "Reverse Leakage Current",
 				"type": "quantity",
-				"unit": "µA",
+				"unit": "A",
 				"use_si": true,
 				"digits": 2
 			},
@@ -402,7 +402,7 @@
 				"name": "junction_capacitance",
 				"display_name": "Junction Capacitance",
 				"type": "quantity",
-				"unit": "pF",
+				"unit": "F",
 				"use_si": true,
 				"digits": 2
 			},
@@ -411,8 +411,78 @@
 				"display_name": "Package",
 				"type": "enum",
 				"items": [
-				"DO-7",
-				"DO-35"
+					"DO-7",
+					"DO-35"
+				]
+			},
+			{
+				"name": "price",
+				"display_name": "Price",
+				"type": "quantity",
+				"unit": "€",
+				"use_si": false,
+				"digits": 4
+			}
+		]
+	},
+	"diodes_leds": {
+		"display_name": "Diodes - LEDs",
+		"columns": [
+			{
+				"name": "forward_voltage",
+				"display_name": "Forward Voltage",
+				"type": "quantity",
+				"unit": "V",
+				"use_si": true,
+				"digits": 2
+			},
+			{
+				"name": "forward_current",
+				"display_name": "Forward Current",
+				"type": "quantity",
+				"unit": "A",
+				"use_si": true,
+				"digits": 2
+			},
+			{
+				"name": "luminous_intensity",
+				"display_name": "Luminous Intensity",
+				"type": "quantity",
+				"unit": "mcd",
+				"use_si": true,
+				"digits": 2
+			},
+			{
+				"name": "wavelength",
+				"display_name": "Wavelength (for colored LEDs)",
+				"type": "quantity",
+				"unit": "nm",
+				"use_si": true,
+				"digits": 2
+			},
+			{
+				"name": "color",
+				"display_name": "Color",
+				"type": "enum",
+				"items": [
+					"Red",
+					"Green",
+					"Blue",
+					"Yellow",
+					"Orange",
+					"White",
+					"RGB"
+				]
+			},
+			{
+				"name": "package",
+				"display_name": "Package",
+				"type": "enum",
+				"items": [
+					"3mm",
+					"5mm",
+					"0805",
+					"1206"
 				]
 			},
 			{
