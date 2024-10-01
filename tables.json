@@ -363,6 +363,68 @@
 			}
 		]
 	},
+	"diodes_germanium": {
+		"display_name": "Diodes - Germanium",
+		"columns": [
+			{
+				"name": "forward_voltage_drop",
+				"display_name": "Forward Voltage Drop",
+				"type": "quantity",
+				"unit": "V",
+				"use_si": true,
+				"digits": 2
+			},
+			{
+				"name": "reverse_current",
+				"display_name": "Reverse Leakage Current",
+				"type": "quantity",
+				"unit": "µA",
+				"use_si": true,
+				"digits": 2
+			},
+			{
+				"name": "peak_inverse_voltage",
+				"display_name": "Peak Inverse Voltage",
+				"type": "quantity",
+				"unit": "V",
+				"use_si": true,
+				"digits": 2
+			},
+			{
+				"name": "max_forward_current",
+				"display_name": "Max Forward Current",
+				"type": "quantity",
+				"unit": "A",
+				"use_si": true,
+				"digits": 2
+			},
+			{
+				"name": "junction_capacitance",
+				"display_name": "Junction Capacitance",
+				"type": "quantity",
+				"unit": "pF",
+				"use_si": true,
+				"digits": 2
+			},
+			{
+				"name": "package",
+				"display_name": "Package",
+				"type": "enum",
+				"items": [
+				"DO-7",
+				"DO-35"
+				]
+			},
+			{
+				"name": "price",
+				"display_name": "Price",
+				"type": "quantity",
+				"unit": "€",
+				"use_si": false,
+				"digits": 4
+			}
+		]
+	},
 	"diodes_rectifiers": {
 		"display_name": "Diodes - Rectifiers",
 		"columns": [
