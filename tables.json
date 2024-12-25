@@ -1067,6 +1067,7 @@
 				"type": "enum",
 				"items": [
 					"SOP-4",
+					"SOP-5",
 					"SOP-6"
 				]
 			},
