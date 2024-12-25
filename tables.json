@@ -770,6 +770,71 @@
 			}
 		]
 	},
+	"eeproms": {
+		"display_name": "EEPROMs",
+		"columns": [
+			{
+				"name": "memory_size",
+				"display_name": "Memory Size",
+				"type": "quantity",
+				"unit": "bit",
+				"use_si": true,
+				"digits": 0
+			},
+			{
+				"name": "interface",
+				"display_name": "Interface",
+				"type": "enum",
+				"items": ["I2C", "SPI"]
+			},
+			{
+				"name": "voltage",
+				"display_name": "Operating Voltage",
+				"type": "quantity",
+				"unit": "V",
+				"use_si": true,
+				"digits": 2
+			},
+			{
+				"name": "speed",
+				"display_name": "Clock Speed",
+				"type": "quantity",
+				"unit": "Hz",
+				"use_si": true,
+				"digits": 0
+			},
+			{
+				"name": "endurance",
+				"display_name": "Write Endurance",
+				"type": "quantity",
+				"unit": "cycles",
+				"use_si": false,
+				"digits": 0
+			},
+			{
+				"name": "data_retention",
+				"display_name": "Data Retention",
+				"type": "quantity",
+				"unit": "years",
+				"use_si": false,
+				"digits": 0
+			},
+			{
+				"name": "package",
+				"display_name": "Package",
+				"type": "enum",
+				"items": ["SOIC-8", "SOT-23-5"]
+			},
+			{
+				"name": "price",
+				"display_name": "Price",
+				"type": "quantity",
+				"unit": "€",
+				"use_si": false,
+				"digits": 4
+			}
+		]
+	},
 	"opamps_jfet": {
 		"display_name": "Opamps - JFET Based",
 		"columns": [
