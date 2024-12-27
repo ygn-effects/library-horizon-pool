@@ -1095,17 +1095,9 @@
 				"name": "tolerance",
 				"display_name": "Frequency Tolerance",
 				"type": "quantity",
-				"unit": "%",
+				"unit": "ppm",
 				"use_si": false,
 				"digits": 2
-			},
-			{
-				"name": "stability",
-				"display_name": "Temperature Stability",
-				"type": "quantity",
-				"unit": "ppm",
-				"use_si": true,
-				"digits": 1
 			},
 			{
 				"name": "load_capacitance",
