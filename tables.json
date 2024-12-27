@@ -1080,6 +1080,62 @@
 				"digits": 4
 			}
 		]
+	},"oscillators_crystal": {
+		"display_name": "Oscillators - Crystal",
+		"columns": [
+			{
+				"name": "frequency",
+				"display_name": "Frequency",
+				"type": "quantity",
+				"unit": "Hz",
+				"use_si": true,
+				"digits": 3
+			},
+			{
+				"name": "tolerance",
+				"display_name": "Frequency Tolerance",
+				"type": "quantity",
+				"unit": "%",
+				"use_si": false,
+				"digits": 2
+			},
+			{
+				"name": "stability",
+				"display_name": "Temperature Stability",
+				"type": "quantity",
+				"unit": "ppm",
+				"use_si": true,
+				"digits": 1
+			},
+			{
+				"name": "load_capacitance",
+				"display_name": "Load Capacitance",
+				"type": "quantity",
+				"unit": "F",
+				"use_si": true,
+				"digits": 2
+			},
+			{
+				"name": "package",
+				"display_name": "Package",
+				"type": "enum",
+				"items": ["SMD"]
+			},
+			{
+				"name": "size",
+				"display_name": "Size",
+				"type": "enum",
+				"items": ["3.2x1.5mm", "2.5x2mm"]
+			},
+			{
+				"name": "price",
+				"display_name": "Price",
+				"type": "quantity",
+				"unit": "€",
+				"use_si": false,
+				"digits": 4
+			}
+		]
 	},
 	"potentiometers": {
 		"display_name": "Potentiometers",
