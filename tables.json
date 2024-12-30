@@ -925,6 +925,7 @@
 				"items": [
 					"Bipolar",
 					"MOSFET",
+					"CMOS",
 					"JFET"
 				]
 			},
@@ -973,7 +974,8 @@
 				"display_name": "Package",
 				"type": "enum",
 				"items": [
-					"SOIC-8"
+					"SOIC-8",
+					"SOT-23-5"
 				]
 			},
 			{
