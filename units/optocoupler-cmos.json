@@ -14,22 +14,10 @@
             "primary_name": "A",
             "swap_group": 0
         },
-        "29f75ba8-b257-44f9-bf3e-1aba97770c45": {
-            "direction": "power_input",
-            "names": [],
-            "primary_name": "GND",
-            "swap_group": 0
-        },
         "a3f8d6a1-4406-4bf5-8b0f-2ca36633c78d": {
             "direction": "passive",
             "names": [],
             "primary_name": "K",
-            "swap_group": 0
-        },
-        "d3cf962e-8632-4f89-8e85-cd3740997e84": {
-            "direction": "power_input",
-            "names": [],
-            "primary_name": "VCC",
             "swap_group": 0
         }
     },
