@@ -1,6 +1,6 @@
 {
     "gates": {
-        "390a6932-7837-488f-b924-947de77e05f4": {
+        "6a809e03-3512-480b-88aa-2916faa0fdf4": {
             "name": "Main",
             "suffix": "",
             "swap_group": 0,
@@ -14,5 +14,5 @@
         "connector"
     ],
     "type": "entity",
-    "uuid": "1293a77b-3df2-4a6c-88cc-eda5fc784423"
+    "uuid": "d14c721f-a7a6-4e98-8123-616272932929"
 }
