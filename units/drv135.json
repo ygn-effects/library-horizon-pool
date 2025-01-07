@@ -37,18 +37,6 @@
             "names": [],
             "primary_name": "+Sense",
             "swap_group": 0
-        },
-        "e081baa8-d6b7-47e5-bdc4-cbcc561b13c7": {
-            "direction": "power_input",
-            "names": [],
-            "primary_name": "V-",
-            "swap_group": 0
-        },
-        "e9c95dc4-aca5-4714-95a2-e600fdfde864": {
-            "direction": "power_input",
-            "names": [],
-            "primary_name": "V+",
-            "swap_group": 0
         }
     },
     "type": "unit",
