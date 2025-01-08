@@ -1,0 +1,50 @@
+{
+    "MPN": [
+        false,
+        "LDECD3470KA5N00"
+    ],
+    "datasheet": [
+        false,
+        ""
+    ],
+    "description": [
+        false,
+        "CAPACITOR FILM 470NF 2220 50V ±10%"
+    ],
+    "entity": "ca83a84f-6183-4088-84b6-5d79b2a119d4",
+    "inherit_model": true,
+    "inherit_tags": false,
+    "manufacturer": [
+        false,
+        "Kemet"
+    ],
+    "model": "00000000-0000-0000-0000-000000000000",
+    "package": "f973eb81-ad78-4e00-ba3e-e22afb2a5bc4",
+    "pad_map": {
+        "779d6cf9-3c84-4816-8b60-64719cf84b71": {
+            "gate": "9bfcf213-2a7e-444e-8312-ce57209fc9ec",
+            "pin": "852f1fe6-06dc-4661-8a14-61a9a6ebb26a"
+        },
+        "fadca35e-113f-4774-ab3a-e73b32bf03f4": {
+            "gate": "9bfcf213-2a7e-444e-8312-ce57209fc9ec",
+            "pin": "29995253-b4b1-4c7c-a049-b6db2713ca7c"
+        }
+    },
+    "parametric": {
+        "dielectric": "Polyethylene Naphthalate (PEN)",
+        "package": "SMD",
+        "price": "0.889",
+        "size": "2220",
+        "table": "capacitors_films",
+        "tolerance": "10",
+        "value": "4.7e-07",
+        "wvdc": "50"
+    },
+    "tags": [],
+    "type": "part",
+    "uuid": "c5cb9198-ae1a-473d-9de6-1eed740a8313",
+    "value": [
+        false,
+        "470n"
+    ]
+}
