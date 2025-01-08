@@ -130,7 +130,8 @@
 				"display_name": "Size",
 				"type": "enum",
 				"items": [
-					"G2"
+					"G2",
+					"2220"
 				]
 			},
 			{
