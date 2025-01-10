@@ -23,7 +23,38 @@
             ]
         }
     },
-    "polygons": {},
+    "polygons": {
+        "9ba5d5be-1ccf-4b3d-ae3f-f1807e1a87b5": {
+            "layer": 0,
+            "parameter_class": "",
+            "vertices": [
+                {
+                    "arc_center": [
+                        0,
+                        0
+                    ],
+                    "arc_reverse": false,
+                    "position": [
+                        175000,
+                        0
+                    ],
+                    "type": "line"
+                },
+                {
+                    "arc_center": [
+                        0,
+                        0
+                    ],
+                    "arc_reverse": true,
+                    "position": [
+                        175000,
+                        0
+                    ],
+                    "type": "arc"
+                }
+            ]
+        }
+    },
     "text_placements": {},
     "texts": {
         "cdbab673-4504-415e-afc8-4a3b39b821de": {
@@ -35,7 +66,7 @@
                 "angle": 0,
                 "mirror": false,
                 "shift": [
-                    0,
+                    1250000,
                     -3750000
                 ]
             },
@@ -52,8 +83,8 @@
                 "angle": 0,
                 "mirror": false,
                 "shift": [
-                    0,
-                    3750000
+                    1250000,
+                    -1250000
                 ]
             },
             "size": 1500000,
