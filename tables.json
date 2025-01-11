@@ -916,6 +916,93 @@
 			}
 		]
 	},
+	"opamps_ota": {
+		"display_name": "Opamps - OTAs",
+		"columns": [
+			{
+				"name": "number_of_channels",
+				"display_name": "Number of Channels",
+				"type": "quantity",
+				"unit": "",
+				"use_si": false,
+				"digits": 0
+			},
+			{
+				"name": "transconductance_gain",
+				"display_name": "Transconductance Gain",
+				"type": "quantity",
+				"unit": "µA/V",
+				"use_si": true,
+				"digits": 2,
+				"required": false
+			},
+			{
+				"name": "input_offset_voltage",
+				"display_name": "Input Offset Voltage (Vos)",
+				"type": "quantity",
+				"unit": "V",
+				"use_si": true,
+				"digits": 2
+			},
+			{
+				"name": "input_bias_current",
+				"display_name": "Input Bias Current (Ib)",
+				"type": "quantity",
+				"unit": "A",
+				"use_si": true,
+				"digits": 2
+			},
+			{
+				"name": "supply_voltage",
+				"display_name": "Supply Voltage (Vcc)",
+				"type": "quantity",
+				"unit": "V",
+				"use_si": true,
+				"digits": 1
+			},
+			{
+				"name": "slew_rate",
+				"display_name": "Slew Rate",
+				"type": "quantity",
+				"unit": "V/µs",
+				"use_si": true,
+				"digits": 2
+			},
+			{
+				"name": "gain_bandwidth",
+				"display_name": "Gain Bandwidth Product (GBW)",
+				"type": "quantity",
+				"unit": "Hz",
+				"use_si": true,
+				"digits": 2
+			},
+			{
+				"name": "output_impedance",
+				"display_name": "Output Impedance",
+				"type": "quantity",
+				"unit": "Ω",
+				"use_si": true,
+				"digits": 2,
+				"required": false
+			},
+			{
+				"name": "package",
+				"display_name": "Package",
+				"type": "enum",
+				"items": [
+					"SOIC-16"
+				]
+			},
+			{
+				"name": "price",
+				"display_name": "Price",
+				"type": "quantity",
+				"unit": "€",
+				"use_si": false,
+				"digits": 4
+			}
+		]
+	},
 	"opamps_precision": {
 		"display_name": "Opamps - Precision",
 		"columns": [
