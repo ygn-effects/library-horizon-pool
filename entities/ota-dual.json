@@ -1,0 +1,42 @@
+{
+    "gates": {
+        "4caea1b0-6416-4d1d-b2ba-4ee3e2e7e63f": {
+            "name": "P",
+            "suffix": "P",
+            "swap_group": 0,
+            "unit": "d74b6471-1ef3-4dc0-b9ad-37ec94994e92"
+        },
+        "4e8e89bd-f941-4ff8-a664-4d8b6ffb1ec2": {
+            "name": "B",
+            "suffix": "B",
+            "swap_group": 1,
+            "unit": "08dfa09c-46f2-4ffc-aca7-2d2d6d694d52"
+        },
+        "584b590d-eb87-4334-adac-54e80ddff154": {
+            "name": "A",
+            "suffix": "A",
+            "swap_group": 1,
+            "unit": "08dfa09c-46f2-4ffc-aca7-2d2d6d694d52"
+        },
+        "c45713fc-9222-474a-91bf-73fe59e170e7": {
+            "name": "D",
+            "suffix": "D",
+            "swap_group": 2,
+            "unit": "5329f7bb-c84f-4670-90f0-eb46bebe8f2e"
+        },
+        "eb232f44-ead0-426c-b948-d9f43ca2c828": {
+            "name": "C",
+            "suffix": "C",
+            "swap_group": 2,
+            "unit": "5329f7bb-c84f-4670-90f0-eb46bebe8f2e"
+        }
+    },
+    "manufacturer": "",
+    "name": "OTA dual",
+    "prefix": "IC",
+    "tags": [
+        "ota"
+    ],
+    "type": "entity",
+    "uuid": "fe375f14-3719-4ac7-a98d-80c99f9fba95"
+}
