@@ -1,0 +1,55 @@
+{
+    "MPN": [
+        false,
+        "MMBT3906LT1G"
+    ],
+    "datasheet": [
+        false,
+        ""
+    ],
+    "description": [
+        false,
+        "TRANSISTOR PNP 40V 0.2A SOT23"
+    ],
+    "entity": "ca97a37e-d12f-46d1-a3b5-9d8fdf2c972b",
+    "inherit_model": true,
+    "inherit_tags": false,
+    "manufacturer": [
+        false,
+        "ON Semiconductor"
+    ],
+    "model": "001b62c2-ca1d-4d02-b95c-90ebb2b83343",
+    "package": "c60bd8ef-44c5-4875-b03c-b910f9ef79b9",
+    "pad_map": {
+        "7a79a4ab-fdb6-4af7-8287-712559f81605": {
+            "gate": "44541ff6-888d-48d8-96bb-13c1e5538a71",
+            "pin": "438960e0-8f5d-4763-82d9-d3098a837cf2"
+        },
+        "8a5105dd-bc81-4f58-abab-3cae4471357b": {
+            "gate": "44541ff6-888d-48d8-96bb-13c1e5538a71",
+            "pin": "ece03e65-cf43-46a8-9bb2-98673e2e7fea"
+        },
+        "b65fdf3c-ecab-412b-9210-bfdae541644b": {
+            "gate": "44541ff6-888d-48d8-96bb-13c1e5538a71",
+            "pin": "ace6b509-8d1f-4f33-8068-bb0957d7abfc"
+        }
+    },
+    "parametric": {
+        "hfe": "300",
+        "ic": "0.2",
+        "package": "SOT-23-3",
+        "pmax": "-0.25",
+        "price": "0.025",
+        "table": "transistors_bjt",
+        "type": "PNP",
+        "vce_sat": "0",
+        "vceo": "40"
+    },
+    "tags": [],
+    "type": "part",
+    "uuid": "b8f1d509-a9d1-48e6-ad94-61df2e9f60ff",
+    "value": [
+        false,
+        "MMBT3906"
+    ]
+}
