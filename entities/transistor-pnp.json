@@ -1,0 +1,19 @@
+{
+    "gates": {
+        "44541ff6-888d-48d8-96bb-13c1e5538a71": {
+            "name": "Main",
+            "suffix": "",
+            "swap_group": 0,
+            "unit": "3ee1895b-8b91-4f3f-b619-bbce617fd4e5"
+        }
+    },
+    "manufacturer": "",
+    "name": "Transistor PNP",
+    "prefix": "Q",
+    "tags": [
+        "bjt",
+        "transistor"
+    ],
+    "type": "entity",
+    "uuid": "ca97a37e-d12f-46d1-a3b5-9d8fdf2c972b"
+}
