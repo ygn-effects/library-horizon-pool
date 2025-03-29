@@ -364,6 +364,74 @@
 			}
 		]
 	},
+	"usb_connectors": {
+		"display_name": "USB Connectors",
+		"columns": [
+			{
+				"name": "type",
+				"display_name": "Connector Type",
+				"type": "enum",
+				"items": ["USB-A", "USB-B", "USB-C", "Micro-USB", "Mini-USB"]
+			},
+			{
+				"name": "mounting_type",
+				"display_name": "Mounting Type",
+				"type": "enum",
+				"items": ["TH", "SMD"]
+			},
+			{
+				"name": "pins",
+				"display_name": "Number of Pins",
+				"type": "quantity",
+				"unit": "",
+				"use_si": false,
+				"digits": 0
+			},
+			{
+				"name": "orientation",
+				"display_name": "Orientation",
+				"type": "enum",
+				"items": ["Horizontal", "Vertical", "Right Angle"]
+			},
+			{
+				"name": "current_rating",
+				"display_name": "Current Rating",
+				"type": "quantity",
+				"unit": "A",
+				"use_si": true,
+				"digits": 2
+			},
+			{
+				"name": "voltage_rating",
+				"display_name": "Voltage Rating",
+				"type": "quantity",
+				"unit": "V",
+				"use_si": true,
+				"digits": 1
+			},
+			{
+				"name": "shielding",
+				"display_name": "Shielding",
+				"type": "enum",
+				"items": ["Shielded", "Unshielded"]
+			},
+			{
+				"name": "package",
+				"display_name": "Package",
+				"type": "enum",
+				"items": ["Receptacle", "Plug"]
+			},
+			{
+				"name": "price",
+				"display_name": "Price",
+				"type": "quantity",
+				"unit": "€",
+				"use_si": false,
+				"digits": 4
+			}
+		]
+	},
+
 	"diodes_germanium": {
 		"display_name": "Diodes - Germanium",
 		"columns": [
