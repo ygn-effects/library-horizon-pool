@@ -364,8 +364,8 @@
 			}
 		]
 	},
-	"usb_connectors": {
-		"display_name": "USB Connectors",
+	"connectors_usb": {
+		"display_name": "Connectors - USB",
 		"columns": [
 			{
 				"name": "type",
