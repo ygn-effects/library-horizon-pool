@@ -1,0 +1,37 @@
+{
+    "MPN": [
+        false,
+        "Test point"
+    ],
+    "datasheet": [
+        false,
+        ""
+    ],
+    "description": [
+        false,
+        "TH test point"
+    ],
+    "entity": "906c7092-76e2-4b48-a28b-c2c52805822c",
+    "inherit_model": true,
+    "inherit_tags": false,
+    "manufacturer": [
+        false,
+        ""
+    ],
+    "model": "00000000-0000-0000-0000-000000000000",
+    "package": "9c53651f-f703-496b-9426-e26a4857a174",
+    "pad_map": {
+        "0dddab31-4533-496b-ae40-50b864632091": {
+            "gate": "aa907dc8-a33e-4665-80ca-a8a5719c13a3",
+            "pin": "71c2e078-c3d8-462d-8b36-43685d313be6"
+        }
+    },
+    "parametric": {},
+    "tags": [],
+    "type": "part",
+    "uuid": "83c3b848-2f2a-401d-aa15-4fcccb7196d2",
+    "value": [
+        false,
+        ""
+    ]
+}

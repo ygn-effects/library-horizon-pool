@@ -1,26 +1,26 @@
 {
     "manufacturer": "",
-    "name": "Transistor BJT",
+    "name": "Diode array - series",
     "pins": {
-        "438960e0-8f5d-4763-82d9-d3098a837cf2": {
+        "3b3ae5f0-4f54-4b6b-8101-38e3f76eaabf": {
             "direction": "passive",
             "names": [],
-            "primary_name": "E",
+            "primary_name": "A1",
             "swap_group": 0
         },
-        "ace6b509-8d1f-4f33-8068-bb0957d7abfc": {
+        "3b6f11b9-b26d-4847-bcd5-65a137aa4eb4": {
             "direction": "passive",
             "names": [],
-            "primary_name": "B",
+            "primary_name": "C2",
             "swap_group": 0
         },
-        "ece03e65-cf43-46a8-9bb2-98673e2e7fea": {
+        "c134fe9d-f7dd-4f3c-9922-80011123fe97": {
             "direction": "passive",
             "names": [],
-            "primary_name": "C",
+            "primary_name": "C1/A2",
             "swap_group": 0
         }
     },
     "type": "unit",
-    "uuid": "3ee1895b-8b91-4f3f-b619-bbce617fd4e5"
+    "uuid": "dbddf8d9-fcb9-46a7-851b-ea12a700b9b2"
 }

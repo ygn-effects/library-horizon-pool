@@ -130,7 +130,8 @@
 				"display_name": "Size",
 				"type": "enum",
 				"items": [
-					"G2"
+					"G2",
+					"2220"
 				]
 			},
 			{
@@ -363,6 +364,74 @@
 			}
 		]
 	},
+	"connectors_usb": {
+		"display_name": "Connectors - USB",
+		"columns": [
+			{
+				"name": "type",
+				"display_name": "Connector Type",
+				"type": "enum",
+				"items": ["USB-A", "USB-B", "USB-C", "Micro-USB", "Mini-USB"]
+			},
+			{
+				"name": "mounting_type",
+				"display_name": "Mounting Type",
+				"type": "enum",
+				"items": ["TH", "SMD"]
+			},
+			{
+				"name": "pins",
+				"display_name": "Number of Pins",
+				"type": "quantity",
+				"unit": "",
+				"use_si": false,
+				"digits": 0
+			},
+			{
+				"name": "orientation",
+				"display_name": "Orientation",
+				"type": "enum",
+				"items": ["Horizontal", "Vertical", "Right Angle"]
+			},
+			{
+				"name": "current_rating",
+				"display_name": "Current Rating",
+				"type": "quantity",
+				"unit": "A",
+				"use_si": true,
+				"digits": 2
+			},
+			{
+				"name": "voltage_rating",
+				"display_name": "Voltage Rating",
+				"type": "quantity",
+				"unit": "V",
+				"use_si": true,
+				"digits": 1
+			},
+			{
+				"name": "shielding",
+				"display_name": "Shielding",
+				"type": "enum",
+				"items": ["Shielded", "Unshielded"]
+			},
+			{
+				"name": "package",
+				"display_name": "Package",
+				"type": "enum",
+				"items": ["Receptacle", "Plug"]
+			},
+			{
+				"name": "price",
+				"display_name": "Price",
+				"type": "quantity",
+				"unit": "€",
+				"use_si": false,
+				"digits": 4
+			}
+		]
+	},
+
 	"diodes_germanium": {
 		"display_name": "Diodes - Germanium",
 		"columns": [
@@ -481,6 +550,7 @@
 				"items": [
 					"3mm",
 					"5mm",
+					"0603",
 					"0805",
 					"1206"
 				]
@@ -770,6 +840,71 @@
 			}
 		]
 	},
+	"eeproms": {
+		"display_name": "EEPROMs",
+		"columns": [
+			{
+				"name": "memory_size",
+				"display_name": "Memory Size",
+				"type": "quantity",
+				"unit": "bit",
+				"use_si": true,
+				"digits": 0
+			},
+			{
+				"name": "interface",
+				"display_name": "Interface",
+				"type": "enum",
+				"items": ["I2C", "SPI"]
+			},
+			{
+				"name": "voltage",
+				"display_name": "Operating Voltage",
+				"type": "quantity",
+				"unit": "V",
+				"use_si": true,
+				"digits": 2
+			},
+			{
+				"name": "speed",
+				"display_name": "Clock Speed",
+				"type": "quantity",
+				"unit": "Hz",
+				"use_si": true,
+				"digits": 0
+			},
+			{
+				"name": "endurance",
+				"display_name": "Write Endurance",
+				"type": "quantity",
+				"unit": "cycles",
+				"use_si": false,
+				"digits": 0
+			},
+			{
+				"name": "data_retention",
+				"display_name": "Data Retention",
+				"type": "quantity",
+				"unit": "years",
+				"use_si": false,
+				"digits": 0
+			},
+			{
+				"name": "package",
+				"display_name": "Package",
+				"type": "enum",
+				"items": ["SOIC-8", "SOT-23-5"]
+			},
+			{
+				"name": "price",
+				"display_name": "Price",
+				"type": "quantity",
+				"unit": "€",
+				"use_si": false,
+				"digits": 4
+			}
+		]
+	},
 	"opamps_jfet": {
 		"display_name": "Opamps - JFET Based",
 		"columns": [
@@ -850,6 +985,93 @@
 			}
 		]
 	},
+	"opamps_ota": {
+		"display_name": "Opamps - OTAs",
+		"columns": [
+			{
+				"name": "number_of_channels",
+				"display_name": "Number of Channels",
+				"type": "quantity",
+				"unit": "",
+				"use_si": false,
+				"digits": 0
+			},
+			{
+				"name": "transconductance_gain",
+				"display_name": "Transconductance Gain",
+				"type": "quantity",
+				"unit": "µA/V",
+				"use_si": true,
+				"digits": 2,
+				"required": false
+			},
+			{
+				"name": "input_offset_voltage",
+				"display_name": "Input Offset Voltage (Vos)",
+				"type": "quantity",
+				"unit": "V",
+				"use_si": true,
+				"digits": 2
+			},
+			{
+				"name": "input_bias_current",
+				"display_name": "Input Bias Current (Ib)",
+				"type": "quantity",
+				"unit": "A",
+				"use_si": true,
+				"digits": 2
+			},
+			{
+				"name": "supply_voltage",
+				"display_name": "Supply Voltage (Vcc)",
+				"type": "quantity",
+				"unit": "V",
+				"use_si": true,
+				"digits": 1
+			},
+			{
+				"name": "slew_rate",
+				"display_name": "Slew Rate",
+				"type": "quantity",
+				"unit": "V/µs",
+				"use_si": true,
+				"digits": 2
+			},
+			{
+				"name": "gain_bandwidth",
+				"display_name": "Gain Bandwidth Product (GBW)",
+				"type": "quantity",
+				"unit": "Hz",
+				"use_si": true,
+				"digits": 2
+			},
+			{
+				"name": "output_impedance",
+				"display_name": "Output Impedance",
+				"type": "quantity",
+				"unit": "Ω",
+				"use_si": true,
+				"digits": 2,
+				"required": false
+			},
+			{
+				"name": "package",
+				"display_name": "Package",
+				"type": "enum",
+				"items": [
+					"SOIC-16"
+				]
+			},
+			{
+				"name": "price",
+				"display_name": "Price",
+				"type": "quantity",
+				"unit": "€",
+				"use_si": false,
+				"digits": 4
+			}
+		]
+	},
 	"opamps_precision": {
 		"display_name": "Opamps - Precision",
 		"columns": [
@@ -860,6 +1082,7 @@
 				"items": [
 					"Bipolar",
 					"MOSFET",
+					"CMOS",
 					"JFET"
 				]
 			},
@@ -908,7 +1131,8 @@
 				"display_name": "Package",
 				"type": "enum",
 				"items": [
-					"SOIC-8"
+					"SOIC-8",
+					"SOT-23-5"
 				]
 			},
 			{
@@ -1002,8 +1226,57 @@
 				"type": "enum",
 				"items": [
 					"SOP-4",
+					"SOP-5",
 					"SOP-6"
 				]
+			},
+			{
+				"name": "price",
+				"display_name": "Price",
+				"type": "quantity",
+				"unit": "€",
+				"use_si": false,
+				"digits": 4
+			}
+		]
+	},"oscillators_crystal": {
+		"display_name": "Oscillators - Crystal",
+		"columns": [
+			{
+				"name": "frequency",
+				"display_name": "Frequency",
+				"type": "quantity",
+				"unit": "Hz",
+				"use_si": true,
+				"digits": 3
+			},
+			{
+				"name": "tolerance",
+				"display_name": "Frequency Tolerance",
+				"type": "quantity",
+				"unit": "ppm",
+				"use_si": false,
+				"digits": 2
+			},
+			{
+				"name": "load_capacitance",
+				"display_name": "Load Capacitance",
+				"type": "quantity",
+				"unit": "F",
+				"use_si": true,
+				"digits": 2
+			},
+			{
+				"name": "package",
+				"display_name": "Package",
+				"type": "enum",
+				"items": ["SMD"]
+			},
+			{
+				"name": "size",
+				"display_name": "Size",
+				"type": "enum",
+				"items": ["3.2x1.5mm", "2.5x2mm"]
 			},
 			{
 				"name": "price",
@@ -1779,7 +2052,8 @@
 				"display_name": "Package",
 				"type": "enum",
 				"items": [
-					"SOT-23-3"
+					"SOT-23-3",
+					"SOT-223-4"
 				]
 			},
 			{

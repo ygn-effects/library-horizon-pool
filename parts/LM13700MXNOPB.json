@@ -1,0 +1,109 @@
+{
+    "MPN": [
+        false,
+        "LM13700MX/NOPB"
+    ],
+    "datasheet": [
+        false,
+        ""
+    ],
+    "description": [
+        false,
+        "OTA DUAL"
+    ],
+    "entity": "fe375f14-3719-4ac7-a98d-80c99f9fba95",
+    "inherit_model": true,
+    "inherit_tags": false,
+    "manufacturer": [
+        false,
+        "Texas Instrument"
+    ],
+    "model": "874bee1f-dd21-4a16-b0f9-7402251d36b0",
+    "package": "e556d27d-abd7-4e70-a39e-a49f2944a857",
+    "pad_map": {
+        "051cb5bf-f26d-4541-a111-bd75f73f6ed6": {
+            "gate": "4e8e89bd-f941-4ff8-a664-4d8b6ffb1ec2",
+            "pin": "3f12f0d3-3ffe-4e09-b659-a9536e6b126d"
+        },
+        "20b89831-d9f2-4c38-a310-ce3d1ff05bcb": {
+            "gate": "4e8e89bd-f941-4ff8-a664-4d8b6ffb1ec2",
+            "pin": "f35eb02d-20bd-47a5-9401-2ae1e886384a"
+        },
+        "22acbda1-c8ae-4403-a0a1-f59665e7d6d6": {
+            "gate": "584b590d-eb87-4334-adac-54e80ddff154",
+            "pin": "3f12f0d3-3ffe-4e09-b659-a9536e6b126d"
+        },
+        "2587503b-57c2-4463-848d-a49a180d9a1d": {
+            "gate": "4e8e89bd-f941-4ff8-a664-4d8b6ffb1ec2",
+            "pin": "e3aefc75-dc48-43d9-8197-16196ed9586f"
+        },
+        "30ad7763-5724-46f3-9506-5f7cc0af1800": {
+            "gate": "c45713fc-9222-474a-91bf-73fe59e170e7",
+            "pin": "16f33afe-74b8-4787-914f-a8c39297183a"
+        },
+        "31675b40-bc35-4478-b4aa-09772736b61a": {
+            "gate": "4e8e89bd-f941-4ff8-a664-4d8b6ffb1ec2",
+            "pin": "332a5897-4bf8-4be0-8bd9-c33e1ed27abe"
+        },
+        "795217ae-6792-4181-bb8d-676dbc2cc83d": {
+            "gate": "eb232f44-ead0-426c-b948-d9f43ca2c828",
+            "pin": "3182a90e-0b57-4bff-a636-2cf5a0a6fa05"
+        },
+        "79abfcf6-0417-4b05-a255-8ac69a692c60": {
+            "gate": "584b590d-eb87-4334-adac-54e80ddff154",
+            "pin": "f35eb02d-20bd-47a5-9401-2ae1e886384a"
+        },
+        "7cf88371-211f-46c1-a257-7140ad51c467": {
+            "gate": "eb232f44-ead0-426c-b948-d9f43ca2c828",
+            "pin": "16f33afe-74b8-4787-914f-a8c39297183a"
+        },
+        "895fd5d9-84da-4744-8abc-6c70f72076f6": {
+            "gate": "584b590d-eb87-4334-adac-54e80ddff154",
+            "pin": "332a5897-4bf8-4be0-8bd9-c33e1ed27abe"
+        },
+        "8cc15a18-2b7b-406a-b981-fb22ee955d22": {
+            "gate": "4caea1b0-6416-4d1d-b2ba-4ee3e2e7e63f",
+            "pin": "75d1face-4dfe-4e9e-ae1c-2a084c3b81df"
+        },
+        "8e6184ed-6271-4a81-afee-e2deb92b031b": {
+            "gate": "4caea1b0-6416-4d1d-b2ba-4ee3e2e7e63f",
+            "pin": "b0e11638-94ee-4ff0-98ac-b2a4bee8e2ad"
+        },
+        "a9ba47ff-602d-4215-b013-7af4deabdf8b": {
+            "gate": "584b590d-eb87-4334-adac-54e80ddff154",
+            "pin": "d31dc607-20fb-4573-a347-fdd939ebf0c1"
+        },
+        "ada62b0b-5772-42e6-a3f4-bf9f7bea24a6": {
+            "gate": "584b590d-eb87-4334-adac-54e80ddff154",
+            "pin": "e3aefc75-dc48-43d9-8197-16196ed9586f"
+        },
+        "b3a91186-7606-4ab3-860c-f91f7b853547": {
+            "gate": "c45713fc-9222-474a-91bf-73fe59e170e7",
+            "pin": "3182a90e-0b57-4bff-a636-2cf5a0a6fa05"
+        },
+        "ca3db555-7846-43b2-8c94-8f0d1aecb345": {
+            "gate": "4e8e89bd-f941-4ff8-a664-4d8b6ffb1ec2",
+            "pin": "d31dc607-20fb-4573-a347-fdd939ebf0c1"
+        }
+    },
+    "parametric": {
+        "gain_bandwidth": "2e+06",
+        "input_bias_current": "4e-07",
+        "input_offset_voltage": "0.1",
+        "number_of_channels": "2",
+        "output_impedance": "",
+        "package": "SOIC-16",
+        "price": "0.587",
+        "slew_rate": "50",
+        "supply_voltage": "36",
+        "table": "opamps_ota",
+        "transconductance_gain": ""
+    },
+    "tags": [],
+    "type": "part",
+    "uuid": "8de47dd1-2bd1-4c2e-91b5-ef53343866e3",
+    "value": [
+        false,
+        ""
+    ]
+}
