@@ -1,6 +1,6 @@
 {
     "manufacturer": "Microchip",
-    "name": "MPC49x1",
+    "name": "MCP49x1",
     "pins": {
         "10cb2d7e-39e3-4220-8d29-5bd0ace87198": {
             "direction": "power_input",
