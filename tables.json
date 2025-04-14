@@ -431,7 +431,60 @@
 			}
 		]
 	},
-
+	"dacs_spi": {
+		"display_name": "DACs - SPI",
+		"columns": [
+			{
+				"name": "channels",
+				"display_name": "Channels",
+				"type": "quantity",
+				"unit": "Ch",
+				"use_si": false,
+				"digits": 0
+			},
+			{
+				"name": "resolution",
+				"display_name": "Resolution",
+				"type": "quantity",
+				"unit": "bit",
+				"use_si": false,
+				"digits": 0
+			},
+			{
+				"name": "interface",
+				"display_name": "Interface",
+				"type": "enum",
+				"items": ["SPI"]
+			},
+			{
+				"name": "reference",
+				"display_name":
+				"Reference Type",
+				"type": "enum",
+				"items": ["External", "Internal", "Both"]
+			},
+			{
+				"name":"output_type",
+				"display_name": "Output Type",
+				"type": "enum",
+				"items": ["Buffered", "Unbuffered"]
+			},
+			{
+				"name": "package",
+				"display_name": "Package",
+				"type": "enum",
+				"items": ["SOIC-8", "TSSOP-8", "SOIC-14", "TSSOP-14", "SOIC-16", "TSSOP-16"]
+			},
+			{
+				"name": "price",
+				"display_name": "Price",
+				"type": "quantity",
+				"unit": "€",
+				"use_si": false,
+				"digits": 4
+			}
+		]
+	},
 	"diodes_germanium": {
 		"display_name": "Diodes - Germanium",
 		"columns": [
@@ -1984,6 +2037,45 @@
 				"items": [
 					"SOT-23-3"
 				]
+			},
+			{
+				"name": "price",
+				"display_name": "Price",
+				"type": "quantity",
+				"unit": "€",
+				"use_si": false,
+				"digits": 4
+			}
+		]
+	},
+	"vcas": {
+		"display_name": "Voltage-Controlled Amplifiers (VCAs)",
+		"columns": [
+			{
+				"name": "configuration",
+				"display_name": "Configuration",
+				"type": "enum",
+				"items": ["Single", "Dual", "Quad"]
+			},
+			{
+				"name": "control_type",
+				"display_name": "Control Type",
+				"type": "enum",
+				"items": ["Exponential", "Linear", "Logarithmic"]
+			},
+			{
+				"name": "supply_voltage_range",
+				"display_name": "Supply Voltage Range",
+				"type": "quantity",
+				"unit": "V",
+				"use_si": true,
+				"digits": 1
+			},
+			{
+				"name": "package",
+				"display_name": "Package",
+				"type": "enum",
+				"items": ["SOIC-8", "SOIC-16"]
 			},
 			{
 				"name": "price",
