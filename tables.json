@@ -958,6 +958,75 @@
 			}
 		]
 	},
+	"inductors": {
+		"display_name": "Inductors",
+		"columns": [
+			{
+				"name": "inductance",
+				"display_name": "Inductance",
+				"type": "quantity",
+				"unit": "H",
+				"use_si": true,
+				"digits": 3
+			},
+			{
+				"name": "tolerance",
+				"display_name": "Tolerance",
+				"type": "quantity",
+				"unit": "%",
+				"use_si": false,
+				"digits": 2
+			},
+			{
+				"name": "current_rating",
+				"display_name": "Current Rating",
+				"type": "quantity",
+				"unit": "A",
+				"use_si": true,
+				"digits": 2
+			},
+			{
+				"name": "dc_resistance",
+				"display_name": "DC Resistance (DCR)",
+				"type": "quantity",
+				"unit": "Ω",
+				"use_si": true,
+				"digits": 4
+			},
+			{
+				"name": "saturation_current",
+				"display_name": "Saturation Current",
+				"type": "quantity",
+				"unit": "A",
+				"use_si": true,
+				"digits": 2,
+				"required": false
+			},
+			{
+				"name": "self_resonant_frequency",
+				"display_name": "Self-Resonant Frequency",
+				"type": "quantity",
+				"unit": "Hz",
+				"use_si": true,
+				"digits": 0,
+				"required": false
+			},
+			{
+				"name": "package",
+				"display_name": "Package",
+				"type": "enum",
+				"items": ["0603", "0805", "1206"]
+			},
+			{
+				"name": "price",
+				"display_name": "Price",
+				"type": "quantity",
+				"unit": "€",
+				"use_si": false,
+				"digits": 4
+			}
+		]
+	},
 	"opamps_jfet": {
 		"display_name": "Opamps - JFET Based",
 		"columns": [
@@ -1292,7 +1361,8 @@
 				"digits": 4
 			}
 		]
-	},"oscillators_crystal": {
+	},
+	"oscillators_crystal": {
 		"display_name": "Oscillators - Crystal",
 		"columns": [
 			{
