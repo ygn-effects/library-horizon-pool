@@ -1,6 +1,6 @@
 {
     "arcs": {},
-    "default_model": "00000000-0000-0000-0000-000000000000",
+    "default_model": "462b0415-4851-494b-ba3d-76a314b4842c",
     "dimensions": {},
     "grid_settings": {
         "current": {
@@ -180,8 +180,18 @@
         }
     },
     "manufacturer": "",
-    "models": {},
-    "name": "smd-connector-header-male-1.27mm",
+    "models": {
+        "462b0415-4851-494b-ba3d-76a314b4842c": {
+            "filename": "3d_models/smd-connector-header-male-1.27mm-6-pins.step",
+            "pitch": 0,
+            "roll": 0,
+            "x": -2550000,
+            "y": 0,
+            "yaw": 16384,
+            "z": 40000
+        }
+    },
+    "name": "smd-connector-header-male-1.27mm-6-pins",
     "pads": {
         "2452b34c-1c1a-4a21-9a20-15917936743b": {
             "name": "4",
@@ -195,7 +205,7 @@
                 "mirror": false,
                 "shift": [
                     635000,
-                    -1700000
+                    -1500000
                 ]
             }
         },
@@ -211,7 +221,7 @@
                 "mirror": false,
                 "shift": [
                     -1905000,
-                    -1700000
+                    -1500000
                 ]
             }
         },
@@ -227,7 +237,7 @@
                 "mirror": false,
                 "shift": [
                     -3175000,
-                    1700000
+                    1500000
                 ]
             }
         },
@@ -243,7 +253,7 @@
                 "mirror": false,
                 "shift": [
                     -635000,
-                    1700000
+                    1500000
                 ]
             }
         },
@@ -259,7 +269,7 @@
                 "mirror": false,
                 "shift": [
                     3175000,
-                    -1700000
+                    -1500000
                 ]
             }
         },
@@ -275,7 +285,7 @@
                 "mirror": false,
                 "shift": [
                     1905000,
-                    1700000
+                    1500000
                 ]
             }
         }
