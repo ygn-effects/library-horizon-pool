@@ -893,6 +893,90 @@
 			}
 		]
 	},
+	"encoders_rotary": {
+		"display_name": "Encoders - Rotary",
+		"columns": [
+			{
+				"name": "type",
+				"display_name": "Type",
+				"type": "enum",
+				"items": [
+					"Incremental",
+					"Absolute"
+				]
+			},
+			{
+				"name": "ppr",
+				"display_name": "Pulses Per Revolution",
+				"type": "quantity",
+				"unit": "",
+				"use_si": false,
+				"digits": 0
+			},
+			{
+				"name": "detents",
+				"display_name": "Detents Per Revolution",
+				"type": "quantity",
+				"unit": "",
+				"use_si": false,
+				"digits": 0
+			},
+			{
+				"name": "with_switch",
+				"display_name": "Push Switch",
+				"type": "enum",
+				"items": [
+					"Yes",
+					"No"
+				]
+			},
+			{
+				"name": "max_voltage",
+				"display_name": "Maximum Voltage",
+				"type": "quantity",
+				"unit": "V",
+				"use_si": true,
+				"digits": 2
+			},
+			{
+				"name": "max_current",
+				"display_name": "Maximum Current",
+				"type": "quantity",
+				"unit": "A",
+				"use_si": true,
+				"digits": 2
+			},
+			{
+				"name": "mounting",
+				"display_name": "Mounting",
+				"type": "enum",
+				"items": [
+					"Through-Hole",
+					"SMD",
+					"Panel Mount"
+				]
+			},
+			{
+				"name": "shaft",
+				"display_name": "Shaft Type",
+				"type": "enum",
+				"items": [
+					"D-Shaft",
+					"Round Shaft",
+					"Knurled Shaft",
+					"Flatted Shaft"
+				]
+			},
+			{
+				"name": "price",
+				"display_name": "Price",
+				"type": "quantity",
+				"unit": "€",
+				"use_si": false,
+				"digits": 4
+			}
+		]
+	},
 	"eeproms": {
 		"display_name": "EEPROMs",
 		"columns": [
