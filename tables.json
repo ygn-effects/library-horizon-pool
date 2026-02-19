@@ -1111,6 +1111,81 @@
 			}
 		]
 	},
+	"io_expanders": {
+		"display_name": "IO Expanders",
+		"columns": [
+			{
+				"name": "channels",
+				"display_name": "GPIO Channels",
+				"type": "quantity",
+				"unit": "",
+				"use_si": false,
+				"digits": 0
+			},
+			{
+				"name": "interface",
+				"display_name": "Interface",
+				"type": "enum",
+				"items": [
+					"I2C",
+					"SPI",
+					"Parallel"
+				]
+			},
+			{
+				"name": "output_type",
+				"display_name": "Output Type",
+				"type": "enum",
+				"items": [
+					"Push-Pull",
+					"Open-Drain",
+					"Quasi-Bidirectional"
+				]
+			},
+			{
+				"name": "interrupt",
+				"display_name": "Interrupt Output",
+				"type": "enum",
+				"items": [
+					"Yes",
+					"No"
+				]
+			},
+			{
+				"name": "addr_bits",
+				"display_name": "Address Bits",
+				"type": "quantity",
+				"unit": "",
+				"use_si": false,
+				"digits": 0
+			},
+			{
+				"name": "vcc_max",
+				"display_name": "Supply Voltage (Max)",
+				"type": "quantity",
+				"unit": "V",
+				"use_si": true,
+				"digits": 2
+			},
+			{
+				"name": "package",
+				"display_name": "Package",
+				"type": "enum",
+				"items": [
+					"SOIC-16",
+					"SOIC-24"
+				]
+			},
+			{
+				"name": "price",
+				"display_name": "Price",
+				"type": "quantity",
+				"unit": "€",
+				"use_si": false,
+				"digits": 4
+			}
+		]
+	},
 	"opamps_jfet": {
 		"display_name": "Opamps - JFET Based",
 		"columns": [
