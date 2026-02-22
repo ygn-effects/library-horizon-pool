@@ -292,7 +292,7 @@
                     ],
                     "arc_reverse": false,
                     "position": [
-                        -7000000,
+                        -5000000,
                         -3150000
                     ],
                     "type": "line"
@@ -304,7 +304,7 @@
                     ],
                     "arc_reverse": false,
                     "position": [
-                        -7000000,
+                        -5000000,
                         2850000
                     ],
                     "type": "line"
@@ -316,7 +316,7 @@
                     ],
                     "arc_reverse": false,
                     "position": [
-                        7000000,
+                        5000000,
                         2850000
                     ],
                     "type": "line"
@@ -328,7 +328,7 @@
                     ],
                     "arc_reverse": false,
                     "position": [
-                        7000000,
+                        5000000,
                         -3150000
                     ],
                     "type": "line"
@@ -346,7 +346,7 @@
                     ],
                     "arc_reverse": false,
                     "position": [
-                        -7000000,
+                        -5000000,
                         -3150000
                     ],
                     "type": "line"
@@ -358,7 +358,7 @@
                     ],
                     "arc_reverse": false,
                     "position": [
-                        7000000,
+                        5000000,
                         -3150000
                     ],
                     "type": "line"
@@ -370,7 +370,7 @@
                     ],
                     "arc_reverse": false,
                     "position": [
-                        7000000,
+                        5000000,
                         2850000
                     ],
                     "type": "line"
@@ -382,7 +382,7 @@
                     ],
                     "arc_reverse": false,
                     "position": [
-                        -7000000,
+                        -5000000,
                         2850000
                     ],
                     "type": "line"
