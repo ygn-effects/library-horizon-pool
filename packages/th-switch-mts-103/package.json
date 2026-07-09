@@ -193,6 +193,60 @@
                 }
             ]
         },
+        "91acc2f6-224e-465e-a9c6-c78a137a69ea": {
+            "layer": 50,
+            "parameter_class": "",
+            "vertices": [
+                {
+                    "arc_center": [
+                        2300000,
+                        -1525000
+                    ],
+                    "arc_reverse": false,
+                    "position": [
+                        -3400000,
+                        -6350000
+                    ],
+                    "type": "line"
+                },
+                {
+                    "arc_center": [
+                        2300000,
+                        -1525000
+                    ],
+                    "arc_reverse": false,
+                    "position": [
+                        -3400000,
+                        6350000
+                    ],
+                    "type": "line"
+                },
+                {
+                    "arc_center": [
+                        2300000,
+                        -1525000
+                    ],
+                    "arc_reverse": false,
+                    "position": [
+                        3400000,
+                        6350000
+                    ],
+                    "type": "line"
+                },
+                {
+                    "arc_center": [
+                        2300000,
+                        -1525000
+                    ],
+                    "arc_reverse": false,
+                    "position": [
+                        3400000,
+                        -6350000
+                    ],
+                    "type": "line"
+                }
+            ]
+        },
         "99e16f82-c071-4b01-9aef-adf328a0f04d": {
             "layer": 40,
             "parameter_class": "",

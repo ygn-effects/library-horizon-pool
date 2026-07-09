@@ -187,6 +187,60 @@
         "courtyard_expansion": 50000
     },
     "polygons": {
+        "59e4dca6-4504-41ce-9c58-ba70acad6417": {
+            "layer": 50,
+            "parameter_class": "",
+            "vertices": [
+                {
+                    "arc_center": [
+                        1625000,
+                        -950000
+                    ],
+                    "arc_reverse": false,
+                    "position": [
+                        -6400000,
+                        -5800000
+                    ],
+                    "type": "line"
+                },
+                {
+                    "arc_center": [
+                        1625000,
+                        -950000
+                    ],
+                    "arc_reverse": false,
+                    "position": [
+                        -6400000,
+                        5800000
+                    ],
+                    "type": "line"
+                },
+                {
+                    "arc_center": [
+                        1625000,
+                        -950000
+                    ],
+                    "arc_reverse": false,
+                    "position": [
+                        6400000,
+                        5800000
+                    ],
+                    "type": "line"
+                },
+                {
+                    "arc_center": [
+                        1625000,
+                        -950000
+                    ],
+                    "arc_reverse": false,
+                    "position": [
+                        6400000,
+                        -5800000
+                    ],
+                    "type": "line"
+                }
+            ]
+        },
         "9b1a22c5-7320-4809-84da-07ed4b7b0de6": {
             "layer": 60,
             "parameter_class": "courtyard",
